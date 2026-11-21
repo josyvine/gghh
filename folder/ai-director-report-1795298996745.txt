@@ -1,0 +1,2443 @@
+=== AI VIDEO DIRECTOR DIAGNOSTIC REPORT ===
+Generated: 2026-11-21T22:09:56.741Z
+Selected Model: gemini-4-hydrogen
+API Keys Count: 1
+Reference Source: Video-97191.mp4 (21.85s, cuts:[14.54,15.35,18.58,20.6,21.81])
+Custom Audio: None
+Prompt / Notes: Please edit my photos as per reference video
+User Media: #0 [IMG] FB_IMG_1795276957118.jpg (21.8s, 1080x1920) | #1 [IMG] FB_IMG_1795277404795.jpg (21.8s, 1080x1440) | #2 [IMG] FB_IMG_1795277388347.jpg (21.8s, 1080x1822) | #3 [IMG] FB_IMG_1795277382687.jpg (21.8s, 1080x1440) | #4 [IMG] FB_IMG_1795277370850.jpg (21.8s, 1080x1087) | #5 [IMG] FB_IMG_1795277363148.jpg (21.8s, 1080x1440) | #6 [IMG] FB_IMG_1795277062989.jpg (21.8s, 780x1040) | #7 [IMG] FB_IMG_1795277057248.jpg (21.8s, 960x1280) | #8 [IMG] FB_IMG_1795277053592.jpg (21.8s, 960x1280) | #9 [IMG] FB_IMG_1795277043153.jpg (21.8s, 960x1280) | #10 [IMG] FB_IMG_1795277048535.jpg (21.8s, 960x1280) | #11 [IMG] FB_IMG_1795277027532.jpg (21.8s, 1080x1920) | #12 [IMG] FB_IMG_1795276975210.jpg (21.8s, 1080x1920) | #13 [IMG] FB_IMG_1795276969700.jpg (21.8s, 1080x1920) | #14 [IMG] FB_IMG_1795276964078.jpg (21.8s, 1080x1920) | #15 [IMG] FB_IMG_1795252910265.jpg (21.8s, 720x1544)
+
+--- DEEP EXECUTION LOG ---
+[03:12:21] Loaded reference video: Video-97191.mp4 (21.85s, 720x1280, 3.44 MB)
+[03:12:21] Decoded audio (21.73s, 44100Hz). Detected 27 audio beat peaks: [0.4, 0.65, 0.9, 1.4, 1.95, 2.7, 4, 4.75, 5.25, 5.55...]
+[03:13:02] Detected 5 visual scene cuts: [14.54, 15.35, 18.58, 20.6, 21.81]
+[03:13:02] Extracted Cut/Beat Keyframe Sheet (4-col) + 25-frame helper storyboard (5x5).
+[03:13:02] API Cycle → Selected Key #1 (AQ.Ab8••••K07Q) [Total used: 4]
+[03:13:02] Encoding reference video Video-97191.mp4 (3.44 MB) as inlineData base64 for Gemini Platform...
+[03:13:02] POST lunar-tag/global/models/gemini-4-neon:streamGenerateContent?alt=sse (thoughts=true)
+[03:13:16] Stream connected (HTTP 200) in 13.67s. Reading live SSE...
+[03:13:16] First AI token arrived in 13.68s from gemini-4-neon!
+[03:15:27] AI → Reference Video Overview: 21.85s vertical portrait beat-synced photo velocity edit (native ~3:4 / 9:14 portrait framing, 6 distinct portrait photographs A–F, Brazilian funk / upbeat electronic drop rhythm, warm golden-amber contrast color grading with soft corner vignette, zero text overlays).
+[03:15:28] AI → Distinct Source Roles Identified: Role A = mirror selfie white crisscross wrap top (warm room w/ "focus" frame & lamp); Role B = mirror selfie slate-blue off-shoulder top (dark wall); Role C = outdoor cherry-print white sundress w/ red cardigan & pink bougainvillea; Role D = twilight lotus pond sitting portrait in dark teal kurta; Role E = golden-hour sunlit close-up face portrait w/ red lipstick & bindi; Role F = mirror selfie white keyhole crop top (same warm room).
+[03:15:28] AI → 0.00s–0.35s: Pure black intro silence/build-up before first beat at 0.40s.
+[03:15:30] AI → 0.35s–3.60s (Beats 0.40s, 0.90s, 1.40s, 1.95s, 2.70s, 3.50s): Stepped Top-to-Bottom Vertical Curtain Reveal of Photo A ([0,0,1,1]). At each beat pulse the reveal front jumps downward (y ≈ 0.15 at 0.40s -> 0.22 at 0.90s -> 0.35 at 1.40s -> 0.52 at 1.95s -> 0.72 at 2.70s -> 1.00 at 3.55s). Every beat step drives a strong DOWNWARD VERTICAL directional motion-blur smear + warm highlight bloom along the active leading horizontal edge fading into pure black below, finishing with a vertical lower-left light streak glow at 3.55s–3.75s.
+[03:15:31] AI → 3.60s–4.75s (Beat 4.00s): Photo A holds full-screen ([0,0,1,1]) with gentle slow scale drift; right on Beat 4.00s a sharp horizontal/radial-horizontal directional motion-blur + zoom-punch impact hits (zoom spike ~1.12x decaying rapidly via ease-out) and settles cleanly by 4.35s.
+[03:15:33] AI → 4.75s–6.05s (Beats 4.75s, 5.25s, 5.55s): Foreground Subject Cutout (subjectCutout) of Photo A locks centered in the foreground while a BORDERLESS 2x2 quad collage (borderWidth: 0) pops in panel-by-panel behind her cutout: Top-Left [0.00, 0.00, 0.50, 0.50] = Photo B (~4.75s), Top-Right [0.50, 0.00, 0.50, 0.50] = Photo C (~5.00s), Bottom-Left [0.00, 0.50, 0.50, 0.50] = Photo D (~5.25s), Bottom-Right [0.50, 0.50, 0.50, 0.50] = original Photo A room background.
+[03:15:34] AI → 5.95s–6.25s (Beat 6.05s): Fast Diagonal-Horizontal Whip-Pan Motion Blur transition (~-20 deg directional smear) whipping out of the Photo A collage directly into Photo E (close-up face portrait).
+[03:15:34] AI → 6.05s–7.55s (Beats 6.80s, 7.30s): Photo E holds full-screen ([0,0,1,1]) with warm golden contrast and subtle slow zoom-in breathing.
+[03:15:35] AI → 7.55s–8.10s (Beats 7.60s, 8.10s): Layered Subject Cutout Transition — brief top-left background peek of Photo F (~7.55s) followed at ~7.80s–8.05s by a foreground Subject Cutout (subjectCutout) of Photo F with a soft warm-white rim glow scaling rapidly upward from bottom-center over Photo E, culminating in a heavy horizontal directional motion-blur + zoom impact right on Beat 8.10s snapping Photo F to full screen.
+[03:15:36] AI → 8.10s–8.75s: Photo F holds full-screen ([0,0,1,1]) settling from the 8.10s beat impact blur.
+[03:15:38] AI → 8.75s–10.15s (Beats 8.85s, 9.35s, 9.65s): Second Foreground Subject Cutout + BORDERLESS 2x2 Quad Collage (borderWidth: 0). Foreground subjectCutout of Photo F stays locked center while background quadrants pop in on beats: Top-Left [0.00, 0.00, 0.50, 0.50] = Photo E (~8.85s, brief entry blur), Top-Right [0.50, 0.00, 0.50, 0.50] = Photo A (~9.15s), Bottom-Left [0.00, 0.50, 0.50, 0.50] = Photo B (~9.35s), Bottom-Right [0.50, 0.50, 0.50, 0.50] = Photo C (~9.65s). At 9.65s–10.05s, an additional foreground subjectCutout of Photo D pops up in the bottom-right foreground overlapping Photo F right before the transition.
+[03:15:39] AI → 10.05s–10.30s (Beat 10.15s): Fast Horizontal Whip-Blur Transition smearing directly into Photo D full-screen.
+[03:15:39] AI → 10.15s–11.15s (Beats 10.90s, 11.15s): Photo D (twilight pond) holds full-screen ([0,0,1,1]) with gentle zoom drift.
+[03:15:41] AI → 11.15s–11.90s (Beats 11.15s, 11.45s): BORDERLESS 50/50 Vertical Split Curtain Wipe transition (borderWidth: 0) from Photo D into Photo B: at 11.15s–11.50s Photo B occupies the left panel [0.00, 0.00, 0.55, 1.00] while Photo D holds the right panel [0.55, 0.00, 0.45, 1.00]; from 11.50s–11.90s the vertical seam sweeps rightward to x=1.00 with a localized horizontal motion-blur band along the moving seam, leaving Photo B full-screen.
+[03:15:42] AI → 11.90s–13.00s: Photo B holds full-screen ([0,0,1,1]) overlaid with Swirling Additive Light Trails — 8 to 12 flowing, tapered white/warm-white curved ribbon strands rendered in 'lighter' (additive) blend mode with multi-pass soft outer bloom, crisp bright cores, and drifting glowing orb/bokeh dust particles sweeping across the edges and subject.
+[03:15:42] AI → 13.00s–13.70s: Fast Velocity Beat Montage begins — Hard cut to Photo E ([0,0,1,1]) with snappy ease-out beat zoom bounce (1.10x -> 1.00x).
+[03:15:43] AI → 13.70s–14.20s (Beat 13.75s): Hard cut to Photo F ([0,0,1,1]) with beat zoom-punch and brief vertical/radial impact motion blur.
+[03:15:43] AI → 14.20s–14.95s (Cut/Pulse 14.54s): Hard cut to Photo D ([0,0,1,1]) with beat-synced zoom punch pulse at 14.54s.
+[03:15:44] AI → 14.95s–15.35s: Rapid cut to Photo C ([0,0,1,1]) with quick zoom-in directional blur burst.
+[03:15:44] AI → 15.35s–15.85s (Cut 15.35s): Crisp hard cut to Photo B ([0,0,1,1]) with ease-out zoom settle.
+[03:15:45] AI → 15.85s–16.08s: High-energy beat cut to Photo E ([0,0,1,1]) overlaid with an intense Full-Frame Swirling Additive Light-Trail Burst (10–12 bright tapered white curved strands + glowing orb particles in 'lighter' additive blend crisscrossing the entire frame).
+[03:15:45] AI → 16.08s–16.70s (Beat 16.30s): Hard cut to Photo A ([0,0,1,1]) with beat zoom bounce.
+[03:15:45] AI → 16.70s–17.20s: Hard cut to Photo F ([0,0,1,1]) with beat zoom bounce.
+[03:15:46] AI → 17.20s–17.65s: Hard cut to Photo D ([0,0,1,1]) with beat zoom bounce.
+[03:15:46] AI → 17.65s–18.58s (Beat 17.85s): Hard cut to Photo B ([0,0,1,1]) with strong zoom-in/vertical-shake motion blur peak around 17.80s settling sharp by 18.00s.
+[03:15:47] AI → 18.58s–19.25s (Cut 18.58s): Crisp hard cut to Photo C ([0,0,1,1]) with beat zoom-in bounce.
+[03:15:47] AI → 19.25s–19.75s (Beat 19.40s): Hard cut to Photo E ([0,0,1,1]) with beat zoom bounce.
+[03:15:48] AI → 19.75s–20.40s (Beat 19.90s): Hard cut to Photo F ([0,0,1,1]) holding briefly before outro dissolution.
+[03:15:49] AI → 20.40s–21.85s (Cut 20.60s): Outro Soft Defocus & Warm-Gray Wash Fade to Black — from 20.40s–20.85s Photo F rapidly defocuses into a smooth vertical warm-gray gradient wash, then from 20.85s–21.85s smoothly fades down to pure black (rgb(0,0,0)).
+[03:15:49] AI stream → Writing structured JSON...
+[03:16:35] AI stream → Writing dynamic JavaScript code...
+[03:17:34] Stream completed in 271.38s (601 chunks, 38337 chars).
+[03:17:34] Stage 1 complete → 25 segments parsed. Compiled tools: [clamp01, lerp, easeOutCubic, easeOutExpo, easeInOutCubic, beatZoomScale, getSteppedRevealState, prepareCoverBuffer, renderSteppedVerticalReveal, renderDirectionalBlur, drawBorderlessQuadCollage, drawCutoutWithGlow, renderVerticalSplitWipe, drawSwirlingLightTrails, renderWarmGrade, renderOutroDefocusWash]
+[03:17:56] Inspected user image: FB_IMG_1795276957118.jpg (1080x1920) → Ready for AI edit.
+[03:18:10] Inspected user image: FB_IMG_1795277404795.jpg (1080x1440) → Ready for AI edit.
+[03:18:10] Inspected user image: FB_IMG_1795277388347.jpg (1080x1822) → Ready for AI edit.
+[03:18:10] Inspected user image: FB_IMG_1795277382687.jpg (1080x1440) → Ready for AI edit.
+[03:18:10] Inspected user image: FB_IMG_1795277370850.jpg (1080x1087) → Ready for AI edit.
+[03:18:10] Inspected user image: FB_IMG_1795277363148.jpg (1080x1440) → Ready for AI edit.
+[03:18:10] Inspected user image: FB_IMG_1795277062989.jpg (780x1040) → Ready for AI edit.
+[03:18:10] Inspected user image: FB_IMG_1795277057248.jpg (960x1280) → Ready for AI edit.
+[03:18:10] Inspected user image: FB_IMG_1795277053592.jpg (960x1280) → Ready for AI edit.
+[03:18:10] Inspected user image: FB_IMG_1795277043153.jpg (960x1280) → Ready for AI edit.
+[03:18:11] Inspected user image: FB_IMG_1795277048535.jpg (960x1280) → Ready for AI edit.
+[03:18:11] Inspected user image: FB_IMG_1795277027532.jpg (1080x1920) → Ready for AI edit.
+[03:18:11] Inspected user image: FB_IMG_1795276975210.jpg (1080x1920) → Ready for AI edit.
+[03:18:11] Inspected user image: FB_IMG_1795276969700.jpg (1080x1920) → Ready for AI edit.
+[03:18:11] Inspected user image: FB_IMG_1795276964078.jpg (1080x1920) → Ready for AI edit.
+[03:18:11] Inspected user image: FB_IMG_1795252910265.jpg (720x1544) → Ready for AI edit.
+[03:18:40] Sending Stage 2 request (Full File Ref + Cut Sheet + 16 asset(s) in 3 preview part(s)) to Gemini (gemini-4-neon)...
+[03:18:40] API Cycle → Selected Key #1 (AQ.Ab8••••K07Q) [Total used: 5]
+[03:18:40] Encoding reference video Video-97191.mp4 (3.44 MB) as inlineData base64 for Gemini Platform...
+[03:18:40] POST lunar-tag/global/models/gemini-4-neon:streamGenerateContent?alt=sse (thoughts=true)
+[03:18:49] Stream connected (HTTP 200) in 8.29s. Reading live SSE...
+[03:18:49] First AI token arrived in 8.30s from gemini-4-neon!
+[03:19:51] AI → Aspect ratio & duration locked to Reference Video 1:1 spec: 1080x1440 (3:4 portrait) at 21.85s total duration, fitting the user's portrait photos cleanly via aspect-safe runtime.drawCover with zero stretching or squashing.
+[03:19:53] AI → Verified real Reference Video & Cut Sheet against Stage 1 Blueprint: confirmed 0.35s-3.60s beat-stepped top-to-bottom vertical reveal with downward motion smear & warm bloom (plus lower-left glow streak at 3.45s-3.62s), 4.00s horizontal impact blur, two borderless 2x2 quad background collages behind neural subject cutouts (4.75s-6.05s & 8.75s-10.15s with secondary bottom-right cutout at 9.65s-10.10s), 7.55s-8.10s rising rim-glow cutout, 11.15s-11.90s borderless vertical split + localized seam-blur wipe, additive swirling white light trails at 11.90s-13.00s & full-frame flash burst at 15.85s-16.08s, rapid beat-synced montage cuts (13.00s-20.40s), and 20.40s-21.85s defocused warm-gray wash fading cleanly to pure black (overriding the 21.81s tail artifact frame so outro ends cleanly on black).
+[03:19:54] AI → Mapped all 16 uploaded user photos (clipIndex 0..15) across the 25 timeline segments with zero adjacent duplicates: Hero A = #2 (magenta saree w/ warm fairy lights), Close-up E = #4 (warm bindi portrait), Hero F = #12 (green saree smiling), Seated D = #5 (pink saree on steps), Moody Split/Light-Trails = #11 (black saree), plus Collage & Velocity Montage featuring #0, #1, #3, #6, #7, #8, #9, #10, #13, #14, #15 and full-circle Hero #2 finale.
+[03:19:55] AI → Neural subject cutouts (#2, #12, #5) are pre-rendered through aspect-safe cover buffers at exact canvas resolution before calling runtime.segmentSubject so foreground subjects register 1:1 with fullscreen shots without distortion.
+[03:19:55] AI → WebGL2 shader pipeline: steppedVerticalReveal (downward smear + warm edge bloom), directionalBlur (horizontal/diagonal/vertical-zoom beat impacts & whip-pan transitions), verticalSplitWipe (localized horizontal seam blur), warmGrade (golden-amber contrast, subtle beat flash & vignette), and outroDefocusWash (multi-ring defocus into warm-gray gradient & black fade).
+[03:19:56] AI → Multi-strand additive ('lighter') light wisps rendered post-grade with 9-11 organic tapered Bezier ribbons and glowing orb particles for crisp white luminance at 11.90s-13.00s and full-frame burst at 15.85s-16.08s.
+[03:19:56] AI → Beat snaps use crisp exponential ease-out velocity curves synced directly to detected audio beats & scene cuts. All 16 user assets are silent images, so reference audio is preserved untouched without extractAudio calls.
+[03:19:56] AI stream → Writing structured JSON...
+[03:20:08] AI stream → Writing dynamic JavaScript code...
+[03:21:21] Stream completed in 161.01s (455 chunks, 27491 chars).
+[03:21:21] AI pipeline requested foreground cutout → Lazy-loading MediaPipe ImageSegmenter...
+[03:21:23] MediaPipe ImageSegmenter ready.
+[03:21:23] Validation render t=0.05s (visibleContent=false, nonBlack=0%, flat=100%)
+[03:21:24] Code error detected (1): GLSL fragment compile error: ERROR: 0:7: 'v_uv' : undeclared identifier
+ERROR: 0:7: '=' : dimension mismatch
+ERROR: 0:7: '=' : cannot convert from 'const highp float' to 'highp 2-component vector of float'
+ 
+[03:21:24] API Cycle → Selected Key #1 (AQ.Ab8••••K07Q) [Total used: 6]
+[03:21:24] POST lunar-tag/global/models/gemini-4-neon:streamGenerateContent?alt=sse (thoughts=true)
+[03:21:27] Stream connected (HTTP 200) in 3.12s. Reading live SSE...
+[03:21:27] First AI token arrived in 3.12s from gemini-4-neon!
+[03:23:10] AI stream → Writing dynamic JavaScript code...
+[03:25:09] Stream completed in 225.23s (614 chunks, 34040 chars).
+[03:25:09] Validation render t=0.05s (visibleContent=true, nonBlack=20%, flat=88%)
+[03:25:10] Validation render t=2.77s (visibleContent=true, nonBlack=88%, flat=1%)
+[03:25:10] Validation render t=6.80s (visibleContent=true, nonBlack=94%, flat=2%)
+[03:25:10] Validation render t=8.21s (visibleContent=true, nonBlack=100%, flat=1%)
+[03:25:10] Validation render t=9.45s (visibleContent=true, nonBlack=98%, flat=0%)
+[03:25:10] Validation render t=11.53s (visibleContent=true, nonBlack=100%, flat=0%)
+[03:25:10] Validation render t=13.35s (visibleContent=true, nonBlack=100%, flat=0%)
+[03:25:10] Validation render t=13.95s (visibleContent=true, nonBlack=100%, flat=0%)
+[03:25:10] Validation render t=15.15s (visibleContent=true, nonBlack=100%, flat=1%)
+[03:25:10] Validation render t=16.36s (visibleContent=true, nonBlack=100%, flat=0%)
+[03:25:10] Validation render t=17.42s (visibleContent=true, nonBlack=99%, flat=0%)
+[03:25:10] Validation render t=18.91s (visibleContent=true, nonBlack=99%, flat=1%)
+[03:25:10] Validation render t=20.07s (visibleContent=true, nonBlack=90%, flat=0%)
+[03:25:11] Validation render t=21.80s (visibleContent=false, nonBlack=0%, flat=100%)
+[03:25:18] Visual QA Pass 1 → Encoded generated output video (3403 KB, nonBlack=90%, flat=6%) for Gemini video inspection.
+[03:25:18] Visual QA Pass 1 → Step A: Blind Visual Audit (1:1 Reference & Multi-Criteria Check)...
+[03:25:18] API Cycle → Selected Key #1 (AQ.Ab8••••K07Q) [Total used: 7]
+[03:25:18] Encoding reference video Video-97191.mp4 (3.44 MB) as inlineData base64 for Gemini Platform...
+[03:25:18] Encoding generated-output-1795298118633.mp4 (3.32 MB) as inlineData base64 for Gemini Platform...
+[03:25:18] POST lunar-tag/global/models/gemini-4-neon:streamGenerateContent?alt=sse (thoughts=true)
+[03:25:57] Stream connected (HTTP 200) in 38.51s. Reading live SSE...
+[03:25:57] First AI token arrived in 38.54s from gemini-4-neon!
+[03:26:07] AI → 0.0s-4.5s (Intro): REF uses a smooth top-down glowing blur reveal; OUT replicates the downward reveal timing well, though the trailing blur shows harsh vertical streaks and raw ungraded colors.
+[03:26:07] AI → 5.0s-6.0s (Collage 1): REF keeps the intro subject as a foreground cutout over quadrant panels; OUT pastes an unrelated sitting cutout (#5) over the grid, breaking continuity.
+[03:26:08] AI → 6.0s-8.5s (Portrait & Zoom): Beat timing and motion blur transition align closely, though OUT lacks REF's warm lighting mood.
+[03:26:08] AI → 8.5s-10.5s (Collage 2): OUT mismatches the active foreground subject and duplicates the same sitting cutout (#5) twice at 9.8s.
+[03:26:09] AI → 10.5s-13.0s (Wipe & Trails): 11.6s split wipe matches timing; at 12.5s OUT draws crude thick white elliptical loops over the face instead of REF's delicate flowing light wisps.
+[03:26:09] AI → 13.0s-20.0s (Beat Cuts): Fast beat cuts follow REF rhythm, but at 14.3s-14.54s asset #15 severely crops off the subject's head, and 16.1s repeats crude ring trails.
+[03:26:10] AI → 20.0s-21.9s (Outro): OUT lags slightly behind REF's neutral fade-out, holding a blurred photo too long before darkening.
+[03:26:10] AI stream → Writing structured JSON...
+[03:26:12] Stream completed in 53.83s (29 chunks, 2075 chars).
+[03:26:12] Visual QA Pass 1 (Blind Audit) → Score: 4/10 (Aspect:4, Layout:4, Effects:4, Timing:6, Color:5), Passed: false, Observations: Timing and main section flow generally follow the reference, but visual fidelity fails due to severe head cropping at 14.3s, mismatched/duplicated foreground cutouts in both collages, crude elliptical light-trail overlays, and ungraded lighting., Issues: Severe top-head cropping on asset #15 around 14.3s-14.54s.; Collages at 5.4s and 9.8s paste an unrelated foreground cutout (#5) and duplicate it twice at 9.8s.; Light trails at 12.5s and 16.1s appear as crude thick rings over faces instead of soft flowing wisps.; Intro curtain smear has harsh vertical banding and outro fade lags behind reference.; Photos lack cohesive warm color grading compared to the reference.; Aspect/framing score 4/10 < 8 (check panel cover-cropping / squashed faces); Layout/geometry score 4/10 < 7; Effects/polish score 4/10 < 7; Timing/cuts score 6/10 < 7; Color/mood score 5/10 < 7
+[03:26:12] Visual QA Pass 1 → Step B: Rewriting pipeline code from blind visual diagnosis...
+[03:26:12] API Cycle → Selected Key #1 (AQ.Ab8••••K07Q) [Total used: 8]
+[03:26:12] Encoding reference video Video-97191.mp4 (3.44 MB) as inlineData base64 for Gemini Platform...
+[03:26:12] POST lunar-tag/global/models/gemini-4-neon:streamGenerateContent?alt=sse (thoughts=true)
+[03:26:34] Stream connected (HTTP 200) in 22.15s. Reading live SSE...
+[03:26:34] First AI token arrived in 22.15s from gemini-4-neon!
+[03:28:19] AI → Diagnosed shared-canvas aliasing in runtime.segmentSubject() that caused Hero A (#2), Hero F (#12), and Sub D (#5) cutouts to all point to #5 (producing mismatched foreground at 5.4s and duplicated #5 cutouts at 9.8s). Fixed by copying each segmentation output immediately into its own dedicated offscreen canvas (cutoutCopy_A, cutoutCopy_F, cutoutCopy_D).
+[03:28:21] AI → Diagnosed severe top-head cropping on tall vertical portraits—especially asset #15 (720x1544) at 14.3s–14.54s and #12/#13/#14/#0 (1080x1920)—caused by center-only drawCover. Fixed by adding aspect-preserving drawCoverAnchored(ctx, media, x, y, w, h, zoom, anchorX, anchorY) with per-clip head-safe vertical anchors (#15 anchorY=0.06, #12/#14/#0 anchorY=0.12–0.14, #2 anchorY=0.22) across all full-screen, collage, and cutout renders.
+[03:28:22] AI → Replaced crude circular/elliptical ring light trails at 12.5s and 16.1s with 10–14 delicate, tapered organic Bezier S-curve light filaments in additive ('lighter') mode featuring razor-fine white cores, soft warm bloom, and floating glowing stardust orbs; tightened the flash burst window to 15.80s–16.04s so 16.08s+ cuts cleanly like the reference.
+[03:28:23] AI → Fixed intro 0.00s–0.35s to hold pure black matching REF 0.15s, re-aligned stepped vertical reveal steps to exact detected beats (0.40s, 0.90s, 1.40s, 1.95s, 2.70s, 3.42s), and upgraded SHADER_STEPPED_REVEAL from 1D vertical streaks to a 2D anisotropic downward motion-blur + highlight bloom kernel to eliminate harsh vertical banding and flat edge lines.
+[03:28:24] AI → Fixed outro timing and defocus (20.25s–21.85s) with heavy multi-ring Gaussian defocus + smooth warm-neutral vertical gray wash peaking by 20.55s–20.60s (matching REF 20.60s 1:1) and fading cleanly to pure black by 21.50s–21.85s (matching REF 21.50s 1:1).
+[03:28:24] AI → Upgraded SHADER_WARM_GRADE with filmic S-curve contrast, warm golden-amber split-toning, soft corner vignette, and per-clip white-balance profiles (neutralizing cool-magenta indoor casts and bright daylight glare) so all 16 user photos share cohesive warm cinematic lighting matching the reference.
+[03:28:24] AI stream → Writing structured JSON...
+[03:28:27] AI stream → Writing dynamic JavaScript code...
+[03:31:13] Stream completed in 300.94s (852 chunks, 48873 chars).
+[03:31:14] Validation render t=0.05s (visibleContent=false, nonBlack=0%, flat=100%)
+[03:31:14] Validation render t=2.77s (visibleContent=true, nonBlack=72%, flat=1%)
+[03:31:14] Validation render t=6.80s (visibleContent=true, nonBlack=93%, flat=2%)
+[03:31:14] Validation render t=8.21s (visibleContent=true, nonBlack=100%, flat=0%)
+[03:31:14] Validation render t=9.45s (visibleContent=true, nonBlack=98%, flat=0%)
+[03:31:14] Validation render t=11.53s (visibleContent=true, nonBlack=100%, flat=0%)
+[03:31:14] Validation render t=13.35s (visibleContent=true, nonBlack=100%, flat=0%)
+[03:31:14] Validation render t=13.95s (visibleContent=true, nonBlack=99%, flat=0%)
+[03:31:14] Validation render t=15.15s (visibleContent=true, nonBlack=100%, flat=2%)
+[03:31:14] Validation render t=16.36s (visibleContent=true, nonBlack=99%, flat=0%)
+[03:31:14] Validation render t=17.42s (visibleContent=true, nonBlack=97%, flat=0%)
+[03:31:14] Validation render t=18.91s (visibleContent=true, nonBlack=98%, flat=1%)
+[03:31:15] Validation render t=20.07s (visibleContent=true, nonBlack=88%, flat=0%)
+[03:31:15] Validation render t=21.80s (visibleContent=false, nonBlack=0%, flat=100%)
+[03:31:15] Visual QA Pass 1 fix compiled and verified!
+[03:31:23] Visual QA Pass 2 → Encoded generated output video (3214 KB, nonBlack=82%, flat=9%) for Gemini video inspection.
+[03:31:23] Visual QA Pass 2 → Step A: Blind Visual Audit (1:1 Reference & Multi-Criteria Check)...
+[03:31:23] API Cycle → Selected Key #1 (AQ.Ab8••••K07Q) [Total used: 9]
+[03:31:23] Encoding reference video Video-97191.mp4 (3.44 MB) as inlineData base64 for Gemini Platform...
+[03:31:23] Encoding generated-output-1795298483172.mp4 (3.14 MB) as inlineData base64 for Gemini Platform...
+[03:31:23] POST lunar-tag/global/models/gemini-4-neon:streamGenerateContent?alt=sse (thoughts=true)
+[03:32:03] Key #1 failed: [HTTP 429] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.
+[03:32:03] Stage 2 error: [HTTP 429] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.
+[03:38:49] Selected model → gemini-4-hydrogen
+[03:39:03] Sending Stage 2 request (Full File Ref + Cut Sheet + 16 asset(s) in 3 preview part(s)) to Gemini (gemini-4-hydrogen)...
+[03:39:03] API Cycle → Selected Key #1 (AQ.Ab8••••K07Q) [Total used: 10]
+[03:39:03] Encoding reference video Video-97191.mp4 (3.44 MB) as inlineData base64 for Gemini Platform...
+[03:39:03] POST lunar-tag/global/models/gemini-4-hydrogen:streamGenerateContent?alt=sse (thoughts=true)
+[03:39:12] Key #1 failed: [HTTP 429] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.
+[03:39:12] Stage 2 error: [HTTP 429] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.
+[03:39:33] Sending Stage 2 request (Full File Ref + Cut Sheet + 16 asset(s) in 3 preview part(s)) to Gemini (gemini-4-hydrogen)...
+[03:39:33] API Cycle → Selected Key #1 (AQ.Ab8••••K07Q) [Total used: 11]
+[03:39:33] Encoding reference video Video-97191.mp4 (3.44 MB) as inlineData base64 for Gemini Platform...
+[03:39:33] POST lunar-tag/global/models/gemini-4-hydrogen:streamGenerateContent?alt=sse (thoughts=true)
+[03:39:40] Key #1 failed: [HTTP 429] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.
+[03:39:40] Stage 2 error: [HTTP 429] Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.
+
+--- LIVE AI STREAM & THOUGHT MONITOR ---
+Waiting for live stream tokens...
+
+
+--- 1. AI REFERENCE / CREATIVE BLUEPRINT (JSON) ---
+{
+  "meta": {
+    "summary": "21.85s beat-synced portrait velocity slideshow edit featuring a stepped top-to-bottom vertical motion-smear intro reveal, two borderless 2x2 quad background collages layered behind foreground neural subject cutouts, horizontal whip-blur beat hits, a borderless 50/50 vertical split curtain wipe, additive multi-strand swirling white light-trail overlays, rapid beat-zoom flash cuts, and a soft defocused gray-wash fade to black.",
+    "durationSec": 21.85,
+    "aspectWidth": 1080,
+    "aspectHeight": 1440,
+    "gridCols": 2,
+    "gridRows": 2,
+    "persistentOverlay": "warm golden-amber cinematic contrast color grade with subtle soft corner vignette (no persistent text or frame border)",
+    "beatsSec": [
+      0.4,
+      0.65,
+      0.9,
+      1.4,
+      1.95,
+      2.7,
+      4,
+      4.75,
+      5.25,
+      5.55,
+      6.05,
+      6.8,
+      7.3,
+      7.6,
+      8.1,
+      8.85,
+      9.35,
+      9.65,
+      10.15,
+      10.9,
+      11.15,
+      11.45,
+      13.75,
+      16.3,
+      17.85,
+      19.4,
+      19.9
+    ],
+    "sceneCutsSec": [
+      4,
+      4.75,
+      6.05,
+      8.1,
+      8.85,
+      10.15,
+      11.15,
+      11.9,
+      13,
+      13.7,
+      14.2,
+      14.95,
+      15.35,
+      15.85,
+      16.08,
+      16.7,
+      17.2,
+      17.65,
+      18.58,
+      19.25,
+      19.75,
+      20.4
+    ],
+    "audioMood": "upbeat Brazilian funk / high-energy bass-drop beat-sync rhythm"
+  },
+  "timelineBlueprint": [
+    {
+      "segmentIndex": 0,
+      "startSec": 0,
+      "endSec": 0.35,
+      "layout": "black_intro",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "black",
+      "effectsAndTransitions": "Pure black screen holding for intro beat anticipation; blurDirection: none; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 1,
+      "startSec": 0.35,
+      "endSec": 3.6,
+      "layout": "fullscreen_stepped_vertical_reveal",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "hero_portrait_A",
+      "effectsAndTransitions": "Beat-synced stepped top-to-bottom vertical curtain reveal (steps at 0.40s->0.15, 0.90s->0.22, 1.40s->0.35, 1.95s->0.52, 2.70s->0.72, 3.50s->1.00); blurDirection: vertical downward motion smear + warm highlight bloom along active leading reveal edge into pure black; lower-left bright vertical glow streak at 3.55s; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "lumaMask"
+    },
+    {
+      "segmentIndex": 2,
+      "startSec": 3.6,
+      "endSec": 4.75,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "hero_portrait_A",
+      "effectsAndTransitions": "Full-screen hold with gentle slow zoom-in; strong beat-drop horizontal/radial-horizontal directional motion blur + zoom-punch impact at 4.00s (1.12x -> 1.00x ease-out settle); blurDirection: horizontal; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 3,
+      "startSec": 4.75,
+      "endSec": 6.05,
+      "layout": "quad_2x2_collage_behind_subject_cutout",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0,
+          0.5,
+          0.5
+        ],
+        [
+          0,
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "fg_cutout_A_over_bg_B_C_D_A",
+      "effectsAndTransitions": "Foreground neural subject cutout of Portrait A locked center over a borderless 2x2 background quad collage popping in beat-by-beat (TL=B at 4.75s, TR=C at 5.00s, BL=D at 5.25s, BR=A bg); ends with fast diagonal-horizontal whip-pan motion blur at 5.95s–6.05s; blurDirection: diagonal-horizontal whip at exit; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "subjectCutout"
+    },
+    {
+      "segmentIndex": 4,
+      "startSec": 6.05,
+      "endSec": 7.55,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "closeup_portrait_E",
+      "effectsAndTransitions": "Enters via diagonal-horizontal whip motion blur settling sharply by 6.30s; slow warm zoom-in drift across beats 6.80s and 7.30s; blurDirection: diagonal-horizontal on entry; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 5,
+      "startSec": 7.55,
+      "endSec": 8.1,
+      "layout": "fullscreen_with_rising_subject_cutout",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "bg_E_with_fg_cutout_F",
+      "effectsAndTransitions": "Brief upper-left peek of Portrait F at 7.55s followed by a foreground subject cutout of Portrait F with subtle warm-white rim glow scaling up from bottom-center (7.80s–8.05s) into a heavy horizontal motion-blur + zoom punch impact at 8.10s; blurDirection: horizontal impact at exit; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "subjectCutout"
+    },
+    {
+      "segmentIndex": 6,
+      "startSec": 8.1,
+      "endSec": 8.75,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "hero_portrait_F",
+      "effectsAndTransitions": "Lands sharply from the 8.10s horizontal motion-blur zoom impact and holds full-screen with subtle scale drift; blurDirection: horizontal on entry; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 7,
+      "startSec": 8.75,
+      "endSec": 10.15,
+      "layout": "quad_2x2_collage_behind_subject_cutout",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0,
+          0.5,
+          0.5
+        ],
+        [
+          0,
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "fg_cutout_F_and_D_over_bg_E_A_B_C",
+      "effectsAndTransitions": "Foreground neural subject cutout of Portrait F locked center while borderless 2x2 background panels pop in beat-by-beat (TL=E at 8.85s w/ brief entry blur, TR=A at 9.15s, BL=B at 9.35s, BR=C at 9.65s); secondary foreground cutout of Portrait D pops up at bottom-right (9.65s–10.05s); exits via fast horizontal whip-blur at 10.05s–10.15s; blurDirection: horizontal whip at exit; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "subjectCutout"
+    },
+    {
+      "segmentIndex": 8,
+      "startSec": 10.15,
+      "endSec": 11.15,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "twilight_portrait_D",
+      "effectsAndTransitions": "Enters via horizontal whip-blur settling crisp by 10.35s; full-screen hold with gentle slow zoom-in; blurDirection: horizontal on entry; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 9,
+      "startSec": 11.15,
+      "endSec": 11.9,
+      "layout": "vertical_50_50_split_wipe",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          0.55,
+          1
+        ],
+        [
+          0.55,
+          0,
+          0.45,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "left_B_wiping_over_right_D",
+      "effectsAndTransitions": "Borderless vertical 50/50 split hold (11.15s–11.50s: Portrait B left, Portrait D right) followed by a horizontal wipe sweeping the seam rightward to x=1.00 (11.50s–11.90s) with a localized horizontal motion-blur band along the moving vertical seam; blurDirection: localized horizontal seam blur; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 10,
+      "startSec": 11.9,
+      "endSec": 13,
+      "layout": "fullscreen_with_light_trails",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "mirror_portrait_B",
+      "effectsAndTransitions": "Full-screen hold with subtle zoom drift and sweeping additive swirling white light trails; blurDirection: none; lightTrailStyle: 8-12 thin tapered curved white/warm-white spline strands in additive ('lighter') blend mode with soft bloom + glowing white orb dust particles.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 11,
+      "startSec": 13,
+      "endSec": 13.7,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "closeup_portrait_E",
+      "effectsAndTransitions": "Velocity montage hard beat cut with ease-out zoom bounce (1.10x -> 1.00x); blurDirection: subtle radial/zoom cut punch; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 12,
+      "startSec": 13.7,
+      "endSec": 14.2,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "hero_portrait_F",
+      "effectsAndTransitions": "Velocity montage hard beat cut on 13.75s with beat zoom punch and brief vertical/zoom impact motion blur; blurDirection: vertical-zoom; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 13,
+      "startSec": 14.2,
+      "endSec": 14.95,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "twilight_portrait_D",
+      "effectsAndTransitions": "Velocity montage hard beat cut with secondary zoom-punch pulse at 14.54s; blurDirection: subtle radial/zoom; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 14,
+      "startSec": 14.95,
+      "endSec": 15.35,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "outdoor_portrait_C",
+      "effectsAndTransitions": "Rapid velocity cut with brief radial/zoom-in motion blur surge; blurDirection: radial-zoom; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 15,
+      "startSec": 15.35,
+      "endSec": 15.85,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "mirror_portrait_B",
+      "effectsAndTransitions": "Crisp hard beat cut at 15.35s with snappy ease-out zoom bounce; blurDirection: none; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 16,
+      "startSec": 15.85,
+      "endSec": 16.08,
+      "layout": "fullscreen_with_light_trails",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "closeup_portrait_E",
+      "effectsAndTransitions": "High-impact flash beat cut with full-frame intense additive light-trail burst; blurDirection: none; lightTrailStyle: 10-12 bright tapered white swirling Bezier ribbons crisscrossing entire frame in additive ('lighter') blend mode + bright glowing orb particles.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 17,
+      "startSec": 16.08,
+      "endSec": 16.7,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "hero_portrait_A",
+      "effectsAndTransitions": "Hard beat cut with ease-out zoom bounce synced to 16.30s; blurDirection: none; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 18,
+      "startSec": 16.7,
+      "endSec": 17.2,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "hero_portrait_F",
+      "effectsAndTransitions": "Hard beat cut with ease-out zoom bounce; blurDirection: none; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 19,
+      "startSec": 17.2,
+      "endSec": 17.65,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "twilight_portrait_D",
+      "effectsAndTransitions": "Hard beat cut with ease-out zoom bounce; blurDirection: none; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 20,
+      "startSec": 17.65,
+      "endSec": 18.58,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "mirror_portrait_B",
+      "effectsAndTransitions": "Hard beat cut with strong vertical/zoom-shake motion blur peak around 17.80s settling sharp by 18.00s; blurDirection: vertical-zoom; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 21,
+      "startSec": 18.58,
+      "endSec": 19.25,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "outdoor_portrait_C",
+      "effectsAndTransitions": "Crisp hard beat cut at 18.58s with snappy ease-out zoom-in bounce; blurDirection: none; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 22,
+      "startSec": 19.25,
+      "endSec": 19.75,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "closeup_portrait_E",
+      "effectsAndTransitions": "Hard beat cut on 19.40s with ease-out zoom bounce; blurDirection: none; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 23,
+      "startSec": 19.75,
+      "endSec": 20.4,
+      "layout": "fullscreen",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "hero_portrait_F",
+      "effectsAndTransitions": "Final beat cut on 19.90s holding briefly with gentle slow zoom-in into outro defocus; blurDirection: none; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    },
+    {
+      "segmentIndex": 24,
+      "startSec": 20.4,
+      "endSec": 21.85,
+      "layout": "outro_defocus_fade_black",
+      "panelRectsNormalized": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "borderless": true,
+      "requiredClipRole": "hero_portrait_F_to_black",
+      "effectsAndTransitions": "Heavy multi-ring defocus blur + neutral warm-gray gradient wash (20.40s–20.85s) followed by smooth fade to pure black (20.85s–21.85s); blurDirection: isotropic defocus; lightTrailStyle: none.",
+      "textOverlays": [],
+      "maskOrCutout": "none"
+    }
+  ]
+}
+
+--- 2. AI-GENERATED INTERNAL TOOLS (JS) ---
+const tools = {
+  clamp01(v) {
+    return v < 0 ? 0 : v > 1 ? 1 : v;
+  },
+
+  lerp(a, b, t) {
+    return a + (b - a) * t;
+  },
+
+  easeOutCubic(t) {
+    const u = 1 - tools.clamp01(t);
+    return 1 - u * u * u;
+  },
+
+  easeOutExpo(t) {
+    const c = tools.clamp01(t);
+    return c >= 1 ? 1 : 1 - Math.pow(2, -10 * c);
+  },
+
+  easeInOutCubic(t) {
+    const c = tools.clamp01(t);
+    return c < 0.5 ? 4 * c * c * c : 1 - Math.pow(-2 * c + 2, 3) / 2;
+  },
+
+  // Snappy velocity beat-hit zoom bounce (e.g. 1.12 -> 1.00) plus optional slow drift
+  beatZoomScale(localT, peakZoom = 1.12, decaySec = 0.28, driftRate = 0.015) {
+    const dt = Math.max(0, localT);
+    const bounce = (peakZoom - 1.0) * Math.exp(-dt / Math.max(0.02, decaySec * 0.35));
+    return 1.0 + bounce + dt * driftRate;
+  },
+
+  // Computes the exact beat-stepped vertical reveal fraction & active smear pulse for 0.35s..3.60s
+  getSteppedRevealState(t) {
+    const steps = [
+      { time: 0.35, target: 0.16, dur: 0.24 },
+      { time: 0.85, target: 0.24, dur: 0.24 },
+      { time: 1.38, target: 0.36, dur: 0.24 },
+      { time: 1.92, target: 0.54, dur: 0.28 },
+      { time: 2.66, target: 0.74, dur: 0.28 },
+      { time: 3.38, target: 1.02, dur: 0.26 }
+    ];
+    let prev = 0.0;
+    let currentY = 0.0;
+    let edgePulse = 0.0;
+    for (let i = 0; i < steps.length; i++) {
+      const s = steps[i];
+      if (t >= s.time) {
+        const p = tools.clamp01((t - s.time) / s.dur);
+        const eased = tools.easeOutCubic(p);
+        currentY = tools.lerp(prev, s.target, eased);
+        const pulse = Math.sin(p * Math.PI);
+        if (pulse > edgePulse) edgePulse = pulse;
+        prev = s.target;
+      } else {
+        break;
+      }
+    }
+    return {
+      revealY: tools.clamp01(currentY),
+      edgePulse: edgePulse
+    };
+  },
+
+  // Renders any media into an aspect-safe offscreen canvas of exact (w, h)
+  prepareCoverBuffer(runtime, key, media, w, h, zoom = 1.0, offsetXNorm = 0, offsetYNorm = 0) {
+    const c = runtime.getCanvas(key, w, h);
+    const g = c.getContext('2d');
+    g.clearRect(0, 0, w, h);
+    g.save();
+    g.translate(offsetXNorm * w, offsetYNorm * h);
+    runtime.drawCover(g, media, 0, 0, w, h, zoom);
+    g.restore();
+    return c;
+  },
+
+  // GPU WebGL2 stepped top-to-bottom vertical curtain reveal with downward vertical motion smear & warm edge bloom
+  renderSteppedVerticalReveal(runtime, sourceCanvas, w, h, revealY, smearStrength = 0.85, bloomStrength = 0.55) {
+    const glsl = `
+      uniform sampler2D u_tex;
+      uniform float u_revealY;
+      uniform float u_smear;
+      uniform float u_bloom;
+      void main() {
+        vec2 uv = v_uv;
+        // v_uv.y == 1.0 is top in WebGL upright flip, or 0.0 is bottom; map top-down yTop in [0..1]
+        float yTop = 1.0 - uv.y;
+        float band = 0.06 + 0.16 * u_smear;
+        float distPast = yTop - u_revealY;
+
+        if (distPast > band * 1.4) {
+          gl_FragColor = vec4(0.0, 0.0, 0.0, 1.0);
+          return;
+        }
+
+        vec4 baseCol = texture2D(u_tex, uv);
+
+        // Downward vertical motion smear concentrated near and below the leading reveal front
+        float frontProximity = smoothstep(-band * 0.85, band * 0.15, distPast);
+        float smearAmt = frontProximity * u_smear;
+
+        vec3 accum = vec3(0.0);
+        float wSum = 0.0;
+        const int SAMPLES = 14;
+        for (int i = 0; i < SAMPLES; i++) {
+          float fi = float(i) / float(SAMPLES - 1);
+          // Pull pixels from above downward to create true downward streak into black
+          float sampleYTop = clamp(yTop - fi * band * 1.15 * smearAmt, 0.0, max(0.001, u_revealY));
+          vec2 suv = vec2(uv.x, 1.0 - sampleYTop);
+          float wt = 1.0 - fi * 0.65;
+          accum += texture2D(u_tex, suv).rgb * wt;
+          wSum += wt;
+        }
+        vec3 smeared = accum / max(0.0001, wSum);
+        vec3 col = mix(baseCol.rgb, smeared, clamp(smearAmt * 1.15, 0.0, 1.0));
+
+        // Warm highlight bloom along active vertical smear front
+        float luma = dot(col, vec3(0.299, 0.587, 0.114));
+        float glowBand = exp(-pow(distPast / max(0.02, band * 0.55), 2.0));
+        vec3 warmGlow = col * smoothstep(0.32, 0.92, luma) * glowBand * u_bloom * (0.4 + 0.9 * u_smear) * vec3(1.18, 1.04, 0.86);
+        col += warmGlow;
+
+        // Softly attenuate into pure black past revealY
+        float mask = 1.0 - smoothstep(0.0, max(0.008, band * (0.35 + 0.85 * u_smear)), distPast);
+        col *= mask;
+
+        gl_FragColor = vec4(col, 1.0);
+      }
+    `;
+    return runtime.runShader(
+      'steppedVerticalReveal',
+      w,
+      h,
+      glsl,
+      { u_tex: sourceCanvas },
+      {
+        u_revealY: revealY,
+        u_smear: tools.clamp01(smearStrength),
+        u_bloom: bloomStrength
+      }
+    );
+  },
+
+  // GPU WebGL2 directional + subtle radial zoom motion blur (for whip transitions & beat impacts at 4.00s, 6.05s, 8.10s, 10.15s)
+  renderDirectionalBlur(runtime, sourceCanvas, w, h, angleRad = 0.0, dirStrength = 0.06, radialStrength = 0.02) {
+    const glsl = `
+      uniform sampler2D u_tex;
+      uniform vec2 u_dir;
+      uniform float u_dirStrength;
+      uniform float u_radialStrength;
+      void main() {
+        vec2 uv = v_uv;
+        vec2 toCenter = uv - vec2(0.5);
+        vec3 acc = vec3(0.0);
+        float total = 0.0;
+        const int N = 17;
+        for (int i = 0; i < N; i++) {
+          float f = (float(i) / float(N - 1)) - 0.5;
+          float wt = 1.0 - abs(f) * 1.35;
+          wt = max(0.12, wt);
+          vec2 sampleUv = uv + u_dir * (f * u_dirStrength) - toCenter * (f * u_radialStrength);
+          sampleUv = clamp(sampleUv, vec2(0.001), vec2(0.999));
+          acc += texture2D(u_tex, sampleUv).rgb * wt;
+          total += wt;
+        }
+        gl_FragColor = vec4(acc / total, 1.0);
+      }
+    `;
+    return runtime.runShader(
+      'directionalBlur',
+      w,
+      h,
+      glsl,
+      { u_tex: sourceCanvas },
+      {
+        u_dir: [Math.cos(angleRad), Math.sin(angleRad)],
+        u_dirStrength: dirStrength,
+        u_radialStrength: radialStrength
+      }
+    );
+  },
+
+  // Borderless 2x2 quad background collage (zero borders, exact normalized [x,y,w,h] cover-clipped panels)
+  drawBorderlessQuadCollage(ctx, runtime, panelConfigs, w, h) {
+    for (let i = 0; i < panelConfigs.length; i++) {
+      const p = panelConfigs[i];
+      if (!p || !p.media) continue;
+      const rx = p.rect[0] * w;
+      const ry = p.rect[1] * h;
+      const rw = p.rect[2] * w;
+      const rh = p.rect[3] * h;
+      const alpha = p.alpha !== undefined ? tools.clamp01(p.alpha) : 1.0;
+      if (alpha <= 0.001) continue;
+      const zoom = p.zoom !== undefined ? p.zoom : 1.0;
+
+      ctx.save();
+      ctx.globalAlpha = alpha;
+      ctx.beginPath();
+      ctx.rect(rx, ry, rw, rh);
+      ctx.clip();
+      runtime.drawCover(ctx, p.media, rx, ry, rw, rh, zoom);
+      ctx.restore();
+    }
+  },
+
+  // Foreground neural subject cutout overlay with optional soft warm-white rim glow (NEVER wipes main canvas)
+  drawCutoutWithGlow(ctx, runtime, cutoutCanvas, w, h, opts = {}) {
+    if (!cutoutCanvas) return;
+    const scale = opts.scale !== undefined ? opts.scale : 1.0;
+    const offsetX = (opts.offsetXNorm || 0) * w;
+    const offsetY = (opts.offsetYNorm || 0) * h;
+    const alpha = opts.alpha !== undefined ? tools.clamp01(opts.alpha) : 1.0;
+    const glowStrength = opts.glowStrength || 0;
+    const glowColor = opts.glowColor || 'rgba(255, 244, 224, 0.85)';
+
+    if (alpha <= 0.001) return;
+
+    const dw = w * scale;
+    const dh = h * scale;
+    const dx = (w - dw) * 0.5 + offsetX;
+    const dy = (h - dh) * 0.5 + offsetY;
+
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    if (glowStrength > 0.001) {
+      ctx.shadowColor = glowColor;
+      ctx.shadowBlur = Math.max(2, Math.min(w, h) * 0.028 * glowStrength);
+      ctx.drawImage(cutoutCanvas, dx, dy, dw, dh);
+      ctx.shadowBlur = 0;
+    }
+    ctx.drawImage(cutoutCanvas, dx, dy, dw, dh);
+    ctx.restore();
+  },
+
+  // Borderless 50/50 vertical split & horizontal seam-blur wipe transition (11.15s..11.90s)
+  renderVerticalSplitWipe(runtime, leftCanvas, rightCanvas, w, h, splitX = 0.52, seamBlurWidth = 0.0, seamBlurAmt = 0.0) {
+    const glsl = `
+      uniform sampler2D u_left;
+      uniform sampler2D u_right;
+      uniform float u_splitX;
+      uniform float u_blurBand;
+      uniform float u_blurAmt;
+      void main() {
+        vec2 uv = v_uv;
+        vec3 colL = texture2D(u_left, uv).rgb;
+        vec3 colR = texture2D(u_right, uv).rgb;
+        float dist = abs(uv.x - u_splitX);
+        float side = step(u_splitX, uv.x);
+        vec3 base = mix(colL, colR, side);
+
+        if (u_blurBand > 0.001 && u_blurAmt > 0.001 && dist < u_blurBand) {
+          float factor = (1.0 - dist / u_blurBand) * u_blurAmt;
+          vec3 acc = vec3(0.0);
+          float wSum = 0.0;
+          const int N = 11;
+          for (int i = 0; i < N; i++) {
+            float f = (float(i) / float(N - 1)) - 0.5;
+            vec2 suv = vec2(clamp(uv.x + f * u_blurBand * 0.9 * factor, 0.001, 0.999), uv.y);
+            vec3 cL = texture2D(u_left, suv).rgb;
+            vec3 cR = texture2D(u_right, suv).rgb;
+            float s = smoothstep(u_splitX - u_blurBand * 0.2, u_splitX + u_blurBand * 0.2, suv.x);
+            acc += mix(cL, cR, s);
+            wSum += 1.0;
+          }
+          base = mix(base, acc / wSum, clamp(factor, 0.0, 1.0));
+        }
+
+        gl_FragColor = vec4(base, 1.0);
+      }
+    `;
+    return runtime.runShader(
+      'verticalSplitWipe',
+      w,
+      h,
+      glsl,
+      { u_left: leftCanvas, u_right: rightCanvas },
+      {
+        u_splitX: tools.clamp01(splitX),
+        u_blurBand: seamBlurWidth,
+        u_blurAmt: seamBlurAmt
+      }
+    );
+  },
+
+  // Additive 10-strand swirling tapered glowing light trails + floating orb particles (11.90s..13.00s & 15.85s..16.08s)
+  // Strictly proportional to (w, h), NEVER wipes main canvas
+  drawSwirlingLightTrails(ctx, w, h, localT, duration = 1.0, intensity = 1.0, burstMode = false) {
+    if (intensity <= 0.001) return;
+    const minDim = Math.min(w, h);
+    const p = tools.clamp01(localT / Math.max(0.05, duration));
+    const envelope = burstMode
+      ? Math.sin(p * Math.PI) * 1.15
+      : Math.sin(Math.min(1, p * 1.15) * Math.PI) * 0.95;
+    const alphaScale = tools.clamp01(envelope * intensity);
+    if (alphaScale <= 0.002) return;
+
+    const strandCount = burstMode ? 11 : 9;
+    const steps = 36;
+
+    ctx.save();
+    ctx.globalCompositeOperation = 'lighter';
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+
+    for (let s = 0; s < strandCount; s++) {
+      const seed = s * 1.73205 + (burstMode ? 11.3 : 2.7);
+      const phase = p * (burstMode ? 1.8 : 1.35) + (s % 4) * 0.14;
+      const head = tools.clamp01(phase * 1.25 - 0.12);
+      const tailLen = burstMode ? 0.68 : 0.56;
+      const tail = Math.max(0.0, head - tailLen);
+      if (head - tail < 0.03) continue;
+
+      // Anchor curves organically across frame (edges + diagonal sweeps)
+      const leftToRight = (s % 2) === 0;
+      const x0 = leftToRight ? -0.08 * w : 1.08 * w;
+      const x3 = leftToRight ? 1.08 * w : -0.08 * w;
+      const yBase = ((s + 0.5) / strandCount) * h;
+      const ampY = h * (burstMode ? 0.34 : 0.26);
+      const y0 = yBase + Math.sin(seed * 1.9) * ampY * 0.6;
+      const y3 = h - yBase + Math.cos(seed * 2.3) * ampY * 0.55;
+
+      const cx1 = w * (0.25 + 0.35 * Math.sin(seed + localT * 1.4));
+      const cy1 = y0 + Math.cos(seed * 1.3 + localT * 1.9) * ampY;
+      const cx2 = w * (0.75 + 0.35 * Math.cos(seed * 0.8 - localT * 1.5));
+      const cy2 = y3 + Math.sin(seed * 1.7 - localT * 1.6) * ampY;
+
+      const pts = [];
+      for (let i = 0; i <= steps; i++) {
+        const u = tail + (head - tail) * (i / steps);
+        const inv = 1 - u;
+        const bx = inv * inv * inv * x0 + 3 * inv * inv * u * cx1 + 3 * inv * u * u * cx2 + u * u * u * x3;
+        const by = inv * inv * inv * y0 + 3 * inv * inv * u * cy1 + 3 * inv * u * u * cy2 + u * u * u * y3;
+        const wave = Math.sin(u * 9.0 + seed + localT * 4.2) * minDim * 0.022;
+        pts.push({ x: bx + wave * 0.45, y: by + wave, frac: i / steps });
+      }
+
+      // Draw tapered multi-pass additive ribbon (outer soft glow + crisp bright core)
+      const baseWidth = minDim * (burstMode ? 0.0055 : 0.0042) * (0.7 + 0.55 * ((s * 37) % 10) / 10);
+      for (let i = 1; i < pts.length; i++) {
+        const a = pts[i - 1];
+        const b = pts[i];
+        const taper = Math.sin(b.frac * Math.PI);
+        if (taper <= 0.01) continue;
+
+        // Outer soft warm-white bloom
+        ctx.strokeStyle = `rgba(255, 245, 232, ${(0.22 * taper * alphaScale).toFixed(3)})`;
+        ctx.lineWidth = Math.max(1, baseWidth * 3.8 * taper);
+        ctx.beginPath();
+        ctx.moveTo(a.x, a.y);
+        ctx.lineTo(b.x, b.y);
+        ctx.stroke();
+
+        // Crisp white core
+        ctx.strokeStyle = `rgba(255, 255, 255, ${(0.82 * taper * alphaScale).toFixed(3)})`;
+        ctx.lineWidth = Math.max(0.75, baseWidth * 1.15 * taper);
+        ctx.beginPath();
+        ctx.moveTo(a.x, a.y);
+        ctx.lineTo(b.x, b.y);
+        ctx.stroke();
+      }
+
+      // Bright glowing orb/sparkle along each strand
+      const orbIdx = Math.floor(pts.length * (0.55 + 0.3 * Math.sin(seed + localT * 2.5)));
+      const orb = pts[Math.max(0, Math.min(pts.length - 1, orbIdx))];
+      const orbR = minDim * (burstMode ? 0.014 : 0.010);
+      const grad = ctx.createRadialGradient(orb.x, orb.y, 0, orb.x, orb.y, orbR * 2.2);
+      grad.addColorStop(0, `rgba(255, 255, 255, ${(0.95 * alphaScale).toFixed(3)})`);
+      grad.addColorStop(0.35, `rgba(255, 246, 230, ${(0.45 * alphaScale).toFixed(3)})`);
+      grad.addColorStop(1, 'rgba(255, 240, 220, 0)');
+      ctx.fillStyle = grad;
+      ctx.beginPath();
+      ctx.arc(orb.x, orb.y, orbR * 2.2, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    ctx.restore();
+  },
+
+  // GPU WebGL2 warm cinematic contrast color grade + soft vignette (applied cleanly as final pass)
+  renderWarmGrade(runtime, sourceCanvas, w, h, opts = {}) {
+    const warmth = opts.warmth !== undefined ? opts.warmth : 0.12;
+    const contrast = opts.contrast !== undefined ? opts.contrast : 1.08;
+    const saturation = opts.saturation !== undefined ? opts.saturation : 1.10;
+    const vignette = opts.vignette !== undefined ? opts.vignette : 0.24;
+    const flash = opts.flash !== undefined ? opts.flash : 0.0;
+
+    const glsl = `
+      uniform sampler2D u_tex;
+      uniform float u_warmth;
+      uniform float u_contrast;
+      uniform float u_saturation;
+      uniform float u_vignette;
+      uniform float u_flash;
+      void main() {
+        vec2 uv = v_uv;
+        vec3 col = texture2D(u_tex, uv).rgb;
+
+        // Contrast curve around mid-tones
+        col = (col - 0.5) * u_contrast + 0.5;
+
+        // Rich warm amber tint
+        col *= vec3(1.0 + u_warmth * 0.55, 1.0 + u_warmth * 0.12, 1.0 - u_warmth * 0.55);
+
+        // Saturation lift
+        float luma = dot(col, vec3(0.299, 0.587, 0.114));
+        col = mix(vec3(luma), col, u_saturation);
+
+        // Subtle beat flash boost
+        col += vec3(u_flash);
+
+        // Soft corner vignette
+        vec2 d = (uv - 0.5) * vec2(1.15, 1.0);
+        float vig = 1.0 - smoothstep(0.45, 0.98, length(d)) * u_vignette;
+        col *= vig;
+
+        gl_FragColor = vec4(clamp(col, 0.0, 1.0), 1.0);
+      }
+    `;
+    return runtime.runShader(
+      'warmGrade',
+      w,
+      h,
+      glsl,
+      { u_tex: sourceCanvas },
+      {
+        u_warmth: warmth,
+        u_contrast: contrast,
+        u_saturation: saturation,
+        u_vignette: vignette,
+        u_flash: flash
+      }
+    );
+  },
+
+  // GPU WebGL2 outro heavy defocus + warm-gray wash fading cleanly to pure black (20.40s..21.85s)
+  renderOutroDefocusWash(runtime, sourceCanvas, w, h, progress) {
+    const p = tools.clamp01(progress);
+    const glsl = `
+      uniform sampler2D u_tex;
+      uniform float u_prog;
+      void main() {
+        vec2 uv = v_uv;
+        float blurRad = smoothstep(0.0, 0.35, u_prog) * 0.085;
+        vec3 acc = vec3(0.0);
+        float total = 0.0;
+        const int RINGS = 3;
+        const int DIRS = 8;
+        acc += texture2D(u_tex, uv).rgb;
+        total += 1.0;
+        for (int r = 1; r <= RINGS; r++) {
+          float rad = blurRad * (float(r) / float(RINGS));
+          for (int d = 0; d < DIRS; d++) {
+            float ang = float(d) * 0.78539816;
+            vec2 off = vec2(cos(ang), sin(ang)) * rad;
+            acc += texture2D(u_tex, clamp(uv + off, vec2(0.002), vec2(0.998))).rgb;
+            total += 1.0;
+          }
+        }
+        vec3 blurred = acc / total;
+
+        // Warm-neutral gray gradient wash (peaks around p = 0.25..0.45 like 20.60s)
+        float washAmt = smoothstep(0.05, 0.32, u_prog);
+        vec3 grayGrad = mix(vec3(0.54, 0.52, 0.48), vec3(0.26, 0.26, 0.24), uv.y);
+        vec3 col = mix(blurred, grayGrad, washAmt * 0.88);
+
+        // Smooth fade to pure black from p = 0.35..0.92
+        float fadeBlack = 1.0 - smoothstep(0.32, 0.90, u_prog);
+        col *= fadeBlack;
+
+        gl_FragColor = vec4(col, 1.0);
+      }
+    `;
+    return runtime.runShader(
+      'outroDefocusWash',
+      w,
+      h,
+      glsl,
+      { u_tex: sourceCanvas },
+      { u_prog: p }
+    );
+  }
+};
+
+--- 3. AI-GENERATED EDIT PIPELINE (JS) ---
+let cachedFrames = [];
+let cutoutCacheKey = '';
+let cutoutHeroA = null;
+let cutoutHeroF = null;
+let cutoutSubD = null;
+let revealGradReady = false;
+
+// Per-clip framing anchors (anchorY keeps heads safely framed without stretching) and color-balance profiles
+const CLIP_META = [
+  { anchorX: 0.5, anchorY: 0.14, profile: 'indoorMagenta' }, // #0  1080x1920 green saree bangles
+  { anchorX: 0.5, anchorY: 0.34, profile: 'daylight' },      // #1  1080x1440 white kurta flare
+  { anchorX: 0.5, anchorY: 0.22, profile: 'warm' },          // #2  1080x1822 pink saree fairy lights (Hero A)
+  { anchorX: 0.5, anchorY: 0.54, profile: 'daylight' },      // #3  1080x1440 yellow kurta mug
+  { anchorX: 0.5, anchorY: 0.44, profile: 'warm' },          // #4  1080x1087 blue saree closeup (Closeup E)
+  { anchorX: 0.5, anchorY: 0.46, profile: 'daylight' },      // #5  1080x1440 pink saree seated steps (Seated D)
+  { anchorX: 0.5, anchorY: 0.40, profile: 'daylight' },      // #6  780x1040  pink saree terrace far
+  { anchorX: 0.5, anchorY: 0.30, profile: 'daylight' },      // #7  960x1280  pink saree terrace stairs
+  { anchorX: 0.5, anchorY: 0.32, profile: 'daylight' },      // #8  960x1280  pink saree terrace plants
+  { anchorX: 0.5, anchorY: 0.46, profile: 'daylight' },      // #9  960x1280  pink saree seated chair
+  { anchorX: 0.5, anchorY: 0.46, profile: 'daylight' },      // #10 960x1280  pink saree seated chair 2
+  { anchorX: 0.5, anchorY: 0.34, profile: 'indoorMagenta' }, // #11 1080x1920 black saree selfie (Portrait B)
+  { anchorX: 0.5, anchorY: 0.14, profile: 'indoorMagenta' }, // #12 1080x1920 green saree smiling (Hero F)
+  { anchorX: 0.5, anchorY: 0.16, profile: 'indoorMagenta' }, // #13 1080x1920 green saree showing bangles
+  { anchorX: 0.5, anchorY: 0.12, profile: 'indoorMagenta' }, // #14 1080x1920 green saree looking down
+  { anchorX: 0.5, anchorY: 0.06, profile: 'warm' }           // #15 720x1544  purple saree doorway (top-safe!)
+];
+
+function clamp01(v) {
+  return v < 0 ? 0 : (v > 1 ? 1 : v);
+}
+
+function lerp(a, b, p) {
+  return a + (b - a) * p;
+}
+
+function easeOutCubic(x) {
+  const t = clamp01(x);
+  return 1 - Math.pow(1 - t, 3);
+}
+
+function easeInOutCubic(x) {
+  const t = clamp01(x);
+  return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+}
+
+function beatZoomScale(localT, peakZoom, decaySec, driftRate) {
+  const dt = Math.max(0, localT);
+  const decay = Math.exp(-dt / Math.max(0.015, (decaySec || 0.24) * 0.38));
+  return 1.0 + (peakZoom - 1.0) * decay + dt * (driftRate || 0);
+}
+
+function getClipMeta(idx) {
+  if (idx >= 0 && idx < CLIP_META.length) return CLIP_META[idx];
+  return { anchorX: 0.5, anchorY: 0.35, profile: 'warm' };
+}
+
+function getClip(clips, idx) {
+  if (!clips || clips.length === 0) return null;
+  return clips[((idx % clips.length) + clips.length) % clips.length];
+}
+
+function getCachedMedia(clips, idx) {
+  if (cachedFrames.length > 0) {
+    const safeIdx = ((idx % cachedFrames.length) + cachedFrames.length) % cachedFrames.length;
+    if (cachedFrames[safeIdx]) return cachedFrames[safeIdx];
+  }
+  return getClip(clips, idx);
+}
+
+function getMediaDims(media) {
+  if (!media) return { sw: 1, sh: 1 };
+  const sw = media.videoWidth || media.naturalWidth || media.width || 1;
+  const sh = media.videoHeight || media.naturalHeight || media.height || 1;
+  return { sw: Math.max(1, sw), sh: Math.max(1, sh) };
+}
+
+// Strict aspect-preserving cover draw with custom focal anchor so heads are NEVER cropped or squashed
+function drawCoverAnchored(ctx, media, x, y, w, h, zoom = 1.0, anchorX = 0.5, anchorY = 0.5) {
+  if (!media || w <= 0 || h <= 0) return;
+  const { sw, sh } = getMediaDims(media);
+  const z = Math.max(1.0, zoom || 1.0);
+  const scale = Math.max(w / sw, h / sh) * z;
+  const dw = sw * scale;
+  const dh = sh * scale;
+  const dx = x - (dw - w) * clamp01(anchorX);
+  const dy = y - (dh - h) * clamp01(anchorY);
+
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(x, y, w, h);
+  ctx.clip();
+  ctx.drawImage(media, dx, dy, dw, dh);
+  ctx.restore();
+}
+
+function prepareCoverBuffer(key, clips, clipIdx, width, height, zoom = 1.0, offXNorm = 0, offYNorm = 0) {
+  const w = Math.max(2, Math.round(width));
+  const h = Math.max(2, Math.round(height));
+  const canvas = runtime.getCanvas(key, w, h);
+  const c = canvas.getContext('2d');
+  c.fillStyle = '#000';
+  c.fillRect(0, 0, w, h);
+
+  const media = getCachedMedia(clips, clipIdx);
+  if (!media) return canvas;
+  const meta = getClipMeta(clipIdx);
+
+  const padZoom = Math.max(zoom || 1.0, 1.0 + Math.abs(offXNorm) * 2.1 + Math.abs(offYNorm) * 2.1);
+  const ax = clamp01(meta.anchorX - offXNorm * 0.5);
+  const ay = clamp01(meta.anchorY - offYNorm * 0.5);
+  drawCoverAnchored(c, media, 0, 0, w, h, padZoom, ax, ay);
+  return canvas;
+}
+
+function getGradeForProfile(profile, baseOpts = {}) {
+  const opts = {
+    warmth: 0.20,
+    contrast: 1.12,
+    saturation: 1.08,
+    vignette: 0.28,
+    exposure: 0.96,
+    tintGreen: 0.0,
+    flash: 0.0,
+    ...baseOpts
+  };
+  if (profile === 'indoorMagenta') {
+    opts.warmth = 0.24;
+    opts.tintGreen = 0.045; // neutralizes harsh fluorescent purple/magenta cast into golden studio tone
+    opts.exposure = 0.95;
+    opts.contrast = 1.13;
+    opts.saturation = 1.04;
+  } else if (profile === 'daylight') {
+    opts.warmth = 0.26;
+    opts.exposure = 0.91;   // tames bright outdoor glare to match moody golden reference
+    opts.contrast = 1.14;
+    opts.saturation = 1.06;
+  } else {
+    opts.warmth = 0.16;
+    opts.exposure = 0.98;
+    opts.contrast = 1.11;
+    opts.saturation = 1.09;
+  }
+  return opts;
+}
+
+function getRevealGradCanvas() {
+  const canvas = runtime.getCanvas('revealGradMask', 4, 64);
+  if (!revealGradReady) {
+    const c = canvas.getContext('2d');
+    const g = c.createLinearGradient(0, 0, 0, 64);
+    g.addColorStop(0, '#000000');
+    g.addColorStop(1, '#ffffff');
+    c.fillStyle = g;
+    c.fillRect(0, 0, 4, 64);
+    revealGradReady = true;
+  }
+  return canvas;
+}
+
+// Beat-synced stepped top-to-bottom reveal aligned strictly to detected beats: 0.40, 0.90, 1.40, 1.95, 2.70, 3.42
+function getSteppedRevealState(t) {
+  const steps = [
+    { start: 0.36, dur: 0.22, fromY: 0.00, toY: 0.14 },
+    { start: 0.86, dur: 0.22, fromY: 0.14, toY: 0.24 },
+    { start: 1.36, dur: 0.24, fromY: 0.24, toY: 0.37 },
+    { start: 1.91, dur: 0.28, fromY: 0.37, toY: 0.54 },
+    { start: 2.66, dur: 0.30, fromY: 0.54, toY: 0.75 },
+    { start: 3.36, dur: 0.24, fromY: 0.75, toY: 1.04 }
+  ];
+
+  if (t < steps[0].start) {
+    return { revealY: 0.0, edgePulse: 0.0 };
+  }
+
+  let revealY = 0.0;
+  let edgePulse = 0.18;
+
+  for (let i = 0; i < steps.length; i++) {
+    const s = steps[i];
+    if (t < s.start) {
+      revealY = s.fromY;
+      // Gentle residual soft smear even during short holds (matches REF 0.9s / 1.95s / 2.7s)
+      const prevEnd = i > 0 ? steps[i - 1].start + steps[i - 1].dur : 0;
+      const holdDecay = Math.exp(-Math.max(0, t - prevEnd) / 0.32);
+      edgePulse = 0.16 + 0.34 * holdDecay;
+      break;
+    } else if (t <= s.start + s.dur) {
+      const p = clamp01((t - s.start) / s.dur);
+      revealY = lerp(s.fromY, s.toY, easeOutCubic(p));
+      edgePulse = 0.35 + 0.65 * Math.sin(p * Math.PI);
+      break;
+    } else if (i === steps.length - 1) {
+      revealY = s.toY;
+      edgePulse = 0.0;
+    }
+  }
+  return { revealY, edgePulse };
+}
+
+// 2D anisotropic downward motion-smear shader (eliminates vertical barcode banding & harsh horizontal bar)
+const SHADER_STEPPED_REVEAL = `
+precision highp float;
+varying vec2 v_uv;
+uniform sampler2D u_src;
+uniform sampler2D u_grad;
+uniform float u_revealY;
+uniform float u_smear;
+uniform float u_bloom;
+
+void main() {
+  float yNorm = texture2D(u_grad, v_uv).r;
+  float yDir = texture2D(u_grad, vec2(0.5, 0.6)).r > texture2D(u_grad, vec2(0.5, 0.4)).r ? 1.0 : -1.0;
+
+  if (u_revealY <= 0.002) {
+    gl_FragColor = vec4(0.0, 0.0, 0.0, 1.0);
+    return;
+  }
+
+  float smearBand = 0.045 + 0.19 * u_smear;
+  float edgeDist = yNorm - u_revealY;
+
+  if (edgeDist > smearBand * 1.65) {
+    gl_FragColor = vec4(0.0, 0.0, 0.0, 1.0);
+    return;
+  }
+
+  vec3 crisp = texture2D(u_src, v_uv).rgb;
+
+  // Soft 2D diffused downward smear near and below revealY (no sharp vertical stripes)
+  float blurZone = smoothstep(-smearBand * 0.75, smearBand * 0.25, edgeDist);
+  vec3 smearCol = vec3(0.0);
+  float wSum = 0.0;
+
+  // 3 horizontal taps x 7 vertical taps pulled smoothly from above revealY
+  for (int ix = -1; ix <= 1; ix++) {
+    float hx = float(ix) * (0.012 + 0.016 * u_smear) * blurZone;
+    float wx = (ix == 0) ? 1.0 : 0.68;
+    for (int iy = 0; iy < 7; iy++) {
+      float fi = float(iy) / 6.0;
+      float baseY = min(yNorm, u_revealY);
+      float sampleY = clamp(baseY - fi * (0.045 + 0.085 * u_smear), 0.002, 0.998);
+      float sv = yDir > 0.0 ? sampleY : (1.0 - sampleY);
+      vec2 suv = vec2(clamp(v_uv.x + hx, 0.002, 0.998), clamp(sv, 0.002, 0.998));
+      float wy = 1.0 - fi * 0.45;
+      smearCol += texture2D(u_src, suv).rgb * (wx * wy);
+      wSum += wx * wy;
+    }
+  }
+  smearCol /= max(wSum, 0.001);
+
+  vec3 col = mix(crisp, smearCol, clamp(blurZone * (0.35 + 0.65 * u_smear), 0.0, 1.0));
+
+  // Highlight-driven warm bloom along the soft smear front (only blooms bright image areas, never a flat bar)
+  float luma = dot(smearCol, vec3(0.299, 0.587, 0.114));
+  float frontEnv = exp(-pow((edgeDist + smearBand * 0.1) / max(0.025, smearBand * 0.65), 2.0));
+  float activeMask = smoothstep(0.01, 0.05, u_revealY) * (1.0 - smoothstep(0.95, 1.03, u_revealY));
+  vec3 highlightBloom = smearCol * smoothstep(0.28, 0.85, luma) * frontEnv * u_bloom * 0.85 * vec3(1.18, 1.02, 0.82) * activeMask;
+  col += highlightBloom;
+
+  // Smooth exponential fade into pure black below revealY
+  float mask = 1.0 - smoothstep(-0.01, max(0.015, smearBand * 1.25), edgeDist);
+  // Extra soft tail for dreamy vertical falloff
+  float tailMask = edgeDist > 0.0 ? exp(-edgeDist / max(0.012, smearBand * 0.48)) : 1.0;
+  col *= mix(mask, tailMask, 0.55);
+
+  gl_FragColor = vec4(clamp(col, 0.0, 1.0), 1.0);
+}
+`;
+
+const SHADER_DIR_BLUR = `
+precision highp float;
+varying vec2 v_uv;
+uniform sampler2D u_src;
+uniform float u_dirX;
+uniform float u_dirY;
+uniform float u_rad;
+
+void main() {
+  vec2 dir = vec2(u_dirX, u_dirY);
+  vec2 centerVec = (v_uv - vec2(0.5, 0.5)) * u_rad;
+  vec3 acc = vec3(0.0);
+  float wSum = 0.0;
+  for (int i = -7; i <= 7; i++) {
+    float fi = float(i) / 7.0;
+    float w = 1.0 - abs(fi) * 0.58;
+    vec2 suv = clamp(v_uv + dir * fi + centerVec * fi, vec2(0.002), vec2(0.998));
+    acc += texture2D(u_src, suv).rgb * w;
+    wSum += w;
+  }
+  gl_FragColor = vec4(acc / max(wSum, 0.001), 1.0);
+}
+`;
+
+const SHADER_SPLIT_WIPE = `
+precision highp float;
+varying vec2 v_uv;
+uniform sampler2D u_left;
+uniform sampler2D u_right;
+uniform float u_splitX;
+uniform float u_seamW;
+uniform float u_seamAmt;
+
+void main() {
+  float dist = abs(v_uv.x - u_splitX);
+  float blurFactor = u_seamW > 0.001 ? exp(-(dist * dist) / max(0.0001, 2.0 * u_seamW * u_seamW)) * u_seamAmt : 0.0;
+  float edgeSoft = max(0.0015, u_seamW * 0.22);
+  float maskR = smoothstep(u_splitX - edgeSoft, u_splitX + edgeSoft, v_uv.x);
+
+  vec3 col = vec3(0.0);
+  if (blurFactor > 0.01) {
+    vec3 acc = vec3(0.0);
+    float wSum = 0.0;
+    float span = 0.085 * blurFactor;
+    for (int i = -6; i <= 6; i++) {
+      float fi = float(i) / 6.0;
+      float w = 1.0 - abs(fi) * 0.5;
+      vec2 suv = vec2(clamp(v_uv.x + fi * span, 0.001, 0.999), v_uv.y);
+      float m = smoothstep(u_splitX - edgeSoft, u_splitX + edgeSoft, suv.x);
+      vec3 cL = texture2D(u_left, suv).rgb;
+      vec3 cR = texture2D(u_right, suv).rgb;
+      acc += mix(cL, cR, m) * w;
+      wSum += w;
+    }
+    col = acc / max(wSum, 0.001);
+  } else {
+    vec3 cL = texture2D(u_left, v_uv).rgb;
+    vec3 cR = texture2D(u_right, v_uv).rgb;
+    col = mix(cL, cR, maskR);
+  }
+
+  gl_FragColor = vec4(col, 1.0);
+}
+`;
+
+// Rich cohesive warm golden-amber cinematic color grade with filmic S-curve & split toning
+const SHADER_WARM_GRADE = `
+precision highp float;
+varying vec2 v_uv;
+uniform sampler2D u_src;
+uniform float u_warmth;
+uniform float u_contrast;
+uniform float u_saturation;
+uniform float u_vignette;
+uniform float u_exposure;
+uniform float u_tintGreen;
+uniform float u_flash;
+
+void main() {
+  vec3 col = texture2D(u_src, v_uv).rgb;
+
+  // Exposure normalization
+  col *= u_exposure;
+
+  // Subtle green-magenta neutralization + golden-amber warm balance
+  col.r *= (1.0 + u_warmth * 0.48);
+  col.g *= (1.0 + u_warmth * 0.14 + u_tintGreen);
+  col.b *= (1.0 - u_warmth * 0.44);
+
+  // Filmic S-curve contrast with rich deep shadows
+  vec3 sc = col * col * (3.0 - 2.0 * col);
+  col = mix(col, sc, 0.24);
+  col = (col - vec3(0.48)) * u_contrast + vec3(0.48);
+  col = clamp(col, 0.0, 1.0);
+
+  // Warm golden highlight & espresso shadow split-toning
+  float luma = dot(col, vec3(0.2126, 0.7152, 0.0722));
+  vec3 shadowTone = vec3(0.11, 0.07, 0.04);
+  vec3 highTone = vec3(1.06, 0.98, 0.86);
+  col = mix(col, col * highTone, smoothstep(0.35, 0.95, luma) * 0.42);
+  col += shadowTone * (1.0 - smoothstep(0.0, 0.40, luma)) * 0.18;
+
+  // Controlled saturation
+  float luma2 = dot(col, vec3(0.2126, 0.7152, 0.0722));
+  col = mix(vec3(luma2), col, u_saturation);
+
+  // Soft atmospheric corner vignette matching reference
+  vec2 d = (v_uv - vec2(0.5)) * vec2(1.18, 1.02);
+  float vig = 1.0 - smoothstep(0.28, 0.96, length(d)) * u_vignette;
+  col *= clamp(vig, 0.42, 1.0);
+
+  // Subtle beat flash lift
+  col += vec3(1.0, 0.95, 0.88) * u_flash;
+
+  gl_FragColor = vec4(clamp(col, 0.0, 1.0), 1.0);
+}
+`;
+
+// Outro heavy isotropic defocus + warm-gray gradient wash matching REF 20.60s & pure black by REF 21.50s
+const SHADER_OUTRO_DEFOCUS = `
+precision highp float;
+varying vec2 v_uv;
+uniform sampler2D u_src;
+uniform sampler2D u_grad;
+uniform float u_prog;
+uniform float u_aspect;
+
+void main() {
+  float yNorm = texture2D(u_grad, v_uv).r; // 0 = top, 1 = bottom
+  float blurP = smoothstep(0.0, 0.24, u_prog);
+  float radius = 0.015 + 0.115 * blurP;
+  vec2 invAspect = vec2(1.0 / max(0.25, u_aspect), 1.0);
+
+  vec3 acc = texture2D(u_src, v_uv).rgb * 0.10;
+  float wSum = 0.10;
+
+  for (int r = 1; r <= 3; r++) {
+    float rr = radius * (float(r) / 3.0);
+    float rw = 1.0 - float(r) * 0.22;
+    for (int i = 0; i < 8; i++) {
+      float ang = float(i) * 0.78539816 + float(r) * 0.26;
+      vec2 off = vec2(cos(ang), sin(ang)) * rr * invAspect;
+      acc += texture2D(u_src, clamp(v_uv + off, vec2(0.002), vec2(0.998))).rgb * rw;
+      wSum += rw;
+    }
+  }
+
+  vec3 blurred = acc / max(wSum, 0.001);
+
+  // Warm-neutral vertical gray wash: darker warm charcoal at top, lighter warm taupe at bottom (REF 20.60s 1:1)
+  vec3 grayTop = vec3(0.24, 0.23, 0.20);
+  vec3 grayBot = vec3(0.56, 0.53, 0.48);
+  vec3 warmGrayGrad = mix(grayTop, grayBot, smoothstep(0.0, 1.0, yNorm));
+
+  // Fully reaches smooth defocused gray wash by 20.55s-20.60s (prog ~0.20)
+  float washAmt = smoothstep(0.03, 0.22, u_prog);
+  vec3 col = mix(blurred, warmGrayGrad, washAmt * 0.94);
+
+  // Smooth fade from warm gray wash to pure black matching REF 21.40s-21.50s (prog ~0.78)
+  float fadeOut = 1.0 - smoothstep(0.26, 0.80, u_prog);
+  col *= fadeOut;
+
+  gl_FragColor = vec4(clamp(col, 0.0, 1.0), 1.0);
+}
+`;
+
+function renderSteppedVerticalReveal(srcCanvas, width, height, revealY, smearAmt, bloomAmt) {
+  return runtime.runShader(
+    'localSteppedRevealV2',
+    width,
+    height,
+    SHADER_STEPPED_REVEAL,
+    { u_src: srcCanvas, u_grad: getRevealGradCanvas() },
+    { u_revealY: revealY, u_smear: smearAmt, u_bloom: bloomAmt }
+  );
+}
+
+function renderDirectionalBlur(srcCanvas, width, height, angle, dirStr, radStr) {
+  return runtime.runShader(
+    'localDirBlurV2',
+    width,
+    height,
+    SHADER_DIR_BLUR,
+    { u_src: srcCanvas },
+    {
+      u_dirX: Math.cos(angle) * dirStr,
+      u_dirY: Math.sin(angle) * dirStr,
+      u_rad: radStr
+    }
+  );
+}
+
+function renderVerticalSplitWipe(leftBuf, rightBuf, width, height, splitX, seamBlurWidth, seamBlurAmt) {
+  return runtime.runShader(
+    'localSplitWipeV2',
+    width,
+    height,
+    SHADER_SPLIT_WIPE,
+    { u_left: leftBuf, u_right: rightBuf },
+    { u_splitX: splitX, u_seamW: seamBlurWidth, u_seamAmt: seamBlurAmt }
+  );
+}
+
+function renderWarmGrade(srcCanvas, width, height, opts = {}) {
+  return runtime.runShader(
+    'localWarmGradeV2',
+    width,
+    height,
+    SHADER_WARM_GRADE,
+    { u_src: srcCanvas },
+    {
+      u_warmth: opts.warmth !== undefined ? opts.warmth : 0.20,
+      u_contrast: opts.contrast !== undefined ? opts.contrast : 1.12,
+      u_saturation: opts.saturation !== undefined ? opts.saturation : 1.08,
+      u_vignette: opts.vignette !== undefined ? opts.vignette : 0.28,
+      u_exposure: opts.exposure !== undefined ? opts.exposure : 0.96,
+      u_tintGreen: opts.tintGreen !== undefined ? opts.tintGreen : 0.0,
+      u_flash: opts.flash !== undefined ? opts.flash : 0.0
+    }
+  );
+}
+
+function renderOutroDefocusWash(srcCanvas, width, height, prog) {
+  return runtime.runShader(
+    'localOutroDefocusV2',
+    width,
+    height,
+    SHADER_OUTRO_DEFOCUS,
+    { u_src: srcCanvas, u_grad: getRevealGradCanvas() },
+    { u_prog: clamp01(prog), u_aspect: width / Math.max(1, height) }
+  );
+}
+
+function drawBorderlessQuadCollage(ctx, clips, panels, width, height) {
+  for (let i = 0; i < panels.length; i++) {
+    const p = panels[i];
+    if (!p || p.alpha <= 0.001) continue;
+    const rx = p.rect[0] * width;
+    const ry = p.rect[1] * height;
+    const rw = p.rect[2] * width;
+    const rh = p.rect[3] * height;
+
+    const media = p.overrideMedia || getCachedMedia(clips, p.clipIdx);
+    if (!media) continue;
+    const meta = p.overrideMedia ? { anchorX: 0.5, anchorY: 0.5 } : getClipMeta(p.clipIdx);
+
+    ctx.save();
+    ctx.globalAlpha = clamp01(p.alpha);
+    drawCoverAnchored(ctx, media, rx, ry, rw, rh, p.zoom || 1.0, meta.anchorX, meta.anchorY);
+    ctx.restore();
+  }
+}
+
+// Immediately copies each segmentSubject() result into its own isolated offscreen canvas to prevent shared-buffer aliasing
+async function extractIsolatedCutout(srcBuf, copyKey, width, height, feather = 0.20) {
+  const seg = await runtime.segmentSubject(srcBuf, width, height, feather);
+  const copyCanvas = runtime.getCanvas(copyKey, width, height);
+  const g = copyCanvas.getContext('2d');
+  g.clearRect(0, 0, width, height);
+  if (seg) {
+    g.drawImage(seg, 0, 0, width, height);
+  }
+  return copyCanvas;
+}
+
+async function ensureCutouts(clips, width, height) {
+  const key = `${width}x${height}`;
+  if (cutoutCacheKey === key && cutoutHeroA && cutoutHeroF && cutoutSubD) return;
+  cutoutCacheKey = key;
+
+  // Hero A (#2): matches exact scale & anchorY=0.22 of fullscreen Hero A
+  const bufA = prepareCoverBuffer('segSrcA', clips, 2, width, height, 1.04);
+  cutoutHeroA = await extractIsolatedCutout(bufA, 'cutoutCopy_A', width, height, 0.22);
+
+  // Hero F (#12): matches exact scale & anchorY=0.14 of fullscreen Hero F
+  const bufF = prepareCoverBuffer('segSrcF', clips, 12, width, height, 1.02);
+  cutoutHeroF = await extractIsolatedCutout(bufF, 'cutoutCopy_F', width, height, 0.22);
+
+  // Seated D (#5): matches exact scale & anchorY=0.46 of Seated Portrait D
+  const bufD = prepareCoverBuffer('segSrcD', clips, 5, width, height, 1.0);
+  cutoutSubD = await extractIsolatedCutout(bufD, 'cutoutCopy_D', width, height, 0.18);
+}
+
+function drawCrispRimCutout(ctx, cutoutCanvas, width, height, opts = {}) {
+  if (!cutoutCanvas) return;
+  const scale = opts.scale !== undefined ? opts.scale : 1.0;
+  const offsetX = (opts.offsetXNorm || 0) * width;
+  const offsetY = (opts.offsetYNorm || 0) * height;
+  const alpha = opts.alpha !== undefined ? clamp01(opts.alpha) : 1.0;
+  const rimStrength = opts.rimStrength !== undefined ? opts.rimStrength : 0;
+  if (alpha <= 0.001) return;
+
+  const dw = width * scale;
+  const dh = height * scale;
+  const dx = (width - dw) * 0.5 + offsetX;
+  const dy = (height - dh) * 0.5 + offsetY;
+
+  ctx.save();
+  ctx.globalAlpha = alpha;
+  if (rimStrength > 0.001) {
+    const minDim = Math.min(width, height);
+    ctx.shadowColor = `rgba(255, 245, 225, ${(0.88 * Math.min(1, rimStrength)).toFixed(3)})`;
+    ctx.shadowBlur = Math.max(2, minDim * 0.016 * rimStrength);
+    ctx.drawImage(cutoutCanvas, dx, dy, dw, dh);
+    ctx.shadowBlur = 0;
+  }
+  ctx.drawImage(cutoutCanvas, dx, dy, dw, dh);
+  ctx.restore();
+}
+
+function drawRevealLowerLeftGlow(ctx, width, height, intensity) {
+  if (intensity <= 0.005) return;
+  ctx.save();
+  ctx.globalCompositeOperation = 'lighter';
+  const gx = width * 0.22;
+  const gy = height * 0.89;
+  const rx = width * 0.08;
+  const ry = height * 0.24;
+  ctx.translate(gx, gy);
+  ctx.scale(1, ry / Math.max(1, rx));
+  const grad = ctx.createRadialGradient(0, 0, 0, 0, 0, rx);
+  grad.addColorStop(0, `rgba(255, 250, 236, ${(0.82 * intensity).toFixed(3)})`);
+  grad.addColorStop(0.45, `rgba(255, 228, 188, ${(0.36 * intensity).toFixed(3)})`);
+  grad.addColorStop(1, 'rgba(255, 205, 150, 0)');
+  ctx.fillStyle = grad;
+  ctx.beginPath();
+  ctx.arc(0, 0, rx, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.restore();
+}
+
+// Delicate wispy organic Bezier S-curve light filaments + glowing stardust orbs (11.90s-13.00s & 15.80s-16.04s)
+function drawWispyLightTrails(ctx, width, height, localT, trailDuration, intensity, burstMode) {
+  const prog = clamp01(localT / Math.max(0.05, trailDuration));
+  const env = burstMode
+    ? Math.sin(clamp01(prog * 0.92 + 0.08) * Math.PI)
+    : Math.sin(prog * Math.PI);
+  const strength = clamp01(env * (intensity || 1.0));
+  if (strength <= 0.004) return;
+
+  const minDim = Math.min(width, height);
+  ctx.save();
+  ctx.globalCompositeOperation = 'lighter';
+  ctx.lineCap = 'round';
+  ctx.lineJoin = 'round';
+
+  // Hand-curated flowing organic Bezier paths matching reference wispy light streaks
+  // Ambient mode frames edges/torso gracefully; Burst mode sweeps dramatically across the full frame
+  const ambientStrands = [
+    { p0: [-0.06, 0.86], c1: [0.16, 0.72], c2: [0.06, 0.44], p3: [0.22, 0.16], phase: 0.00, w: 1.0, wave: 0.018 },
+    { p0: [-0.05, 0.78], c1: [0.26, 0.92], c2: [0.64, 0.76], p3: [1.06, 0.88], phase: 0.06, w: 0.9, wave: 0.020 },
+    { p0: [1.06, 0.22],  c1: [0.84, 0.34], c2: [0.95, 0.62], p3: [0.76, 0.94], phase: 0.10, w: 1.0, wave: 0.016 },
+    { p0: [1.06, 0.48],  c1: [0.82, 0.56], c2: [0.88, 0.84], p3: [0.58, 1.05], phase: 0.14, w: 0.85, wave: 0.019 },
+    { p0: [-0.06, 0.28], c1: [0.14, 0.16], c2: [0.36, 0.05], p3: [0.72, -0.05], phase: 0.18, w: 0.8, wave: 0.014 },
+    { p0: [0.18, 1.06],  c1: [0.34, 0.84], c2: [0.22, 0.68], p3: [0.46, 0.58], phase: 0.22, w: 0.75, wave: 0.017 },
+    { p0: [0.92, -0.05], c1: [0.76, 0.18], c2: [0.94, 0.36], p3: [1.06, 0.64], phase: 0.04, w: 0.85, wave: 0.015 },
+    { p0: [-0.06, 0.58], c1: [0.12, 0.66], c2: [0.28, 0.90], p3: [0.14, 1.06], phase: 0.12, w: 0.95, wave: 0.016 },
+    { p0: [0.68, 1.06],  c1: [0.82, 0.80], c2: [0.64, 0.66], p3: [1.06, 0.34], phase: 0.20, w: 0.8, wave: 0.018 },
+    { p0: [-0.04, 0.94], c1: [0.42, 0.82], c2: [0.58, 0.96], p3: [1.04, 0.70], phase: 0.08, w: 0.7, wave: 0.022 }
+  ];
+
+  const burstStrands = [
+    { p0: [-0.06, 0.14], c1: [0.28, 0.28], c2: [0.42, 0.06], p3: [1.06, 0.32], phase: 0.00, w: 1.05, wave: 0.022 },
+    { p0: [-0.06, 0.42], c1: [0.22, 0.18], c2: [0.66, 0.56], p3: [1.06, 0.22], phase: 0.03, w: 0.95, wave: 0.024 },
+    { p0: [-0.06, 0.76], c1: [0.34, 0.48], c2: [0.58, 0.84], p3: [1.06, 0.44], phase: 0.05, w: 1.1, wave: 0.020 },
+    { p0: [1.06, 0.10],  c1: [0.72, 0.38], c2: [0.38, 0.24], p3: [-0.06, 0.62], phase: 0.02, w: 1.0, wave: 0.025 },
+    { p0: [1.06, 0.68],  c1: [0.68, 0.42], c2: [0.44, 0.76], p3: [-0.06, 0.34], phase: 0.06, w: 0.9, wave: 0.022 },
+    { p0: [0.14, -0.05], c1: [0.32, 0.32], c2: [0.12, 0.66], p3: [0.48, 1.06], phase: 0.04, w: 0.95, wave: 0.018 },
+    { p0: [0.52, -0.05], c1: [0.38, 0.34], c2: [0.72, 0.64], p3: [0.84, 1.06], phase: 0.01, w: 1.05, wave: 0.021 },
+    { p0: [0.84, -0.05], c1: [0.64, 0.38], c2: [0.88, 0.72], p3: [0.32, 1.06], phase: 0.07, w: 0.85, wave: 0.020 },
+    { p0: [-0.06, 0.92], c1: [0.28, 0.72], c2: [0.64, 0.36], p3: [1.06, 0.06], phase: 0.02, w: 0.95, wave: 0.023 },
+    { p0: [0.06, 1.06],  c1: [0.42, 0.62], c2: [0.76, 0.84], p3: [1.06, 0.56], phase: 0.05, w: 0.85, wave: 0.019 },
+    { p0: [0.28, -0.05], c1: [0.54, 0.24], c2: [0.24, 0.58], p3: [0.76, 1.06], phase: 0.03, w: 0.8, wave: 0.022 },
+    { p0: [1.06, 0.86],  c1: [0.66, 0.94], c2: [0.32, 0.54], p3: [-0.06, 0.82], phase: 0.04, w: 0.9, wave: 0.020 }
+  ];
+
+  const strands = burstMode ? burstStrands : ambientStrands;
+  const steps = 38;
+
+  for (let s = 0; s < strands.length; s++) {
+    const st = strands[s];
+    const speed = burstMode ? 1.55 : 1.32;
+    const head = clamp01(prog * speed + (burstMode ? 0.22 : 0.08) - st.phase);
+    const tailLen = burstMode ? 0.82 : 0.66;
+    const tail = clamp01(head - tailLen);
+    if (head - tail < 0.04) continue;
+
+    const drift = localT * (burstMode ? 3.2 : 1.8) + s * 1.37;
+    const x0 = st.p0[0] * width;
+    const y0 = st.p0[1] * height;
+    const cx1 = (st.c1[0] + Math.sin(drift) * 0.035) * width;
+    const cy1 = (st.c1[1] + Math.cos(drift * 1.1) * 0.035) * height;
+    const cx2 = (st.c2[0] + Math.cos(drift * 0.9) * 0.035) * width;
+    const cy2 = (st.c2[1] + Math.sin(drift * 1.2) * 0.035) * height;
+    const x3 = st.p3[0] * width;
+    const y3 = st.p3[1] * height;
+
+    const pts = [];
+    for (let i = 0; i <= steps; i++) {
+      const frac = i / steps;
+      const u = lerp(tail, head, frac);
+      const inv = 1 - u;
+      const bx = inv * inv * inv * x0 + 3 * inv * inv * u * cx1 + 3 * inv * u * u * cx2 + u * u * u * x3;
+      const by = inv * inv * inv * y0 + 3 * inv * inv * u * cy1 + 3 * inv * u * u * cy2 + u * u * u * y3;
+      const curl = Math.sin(u * 8.5 + drift) * minDim * st.wave;
+      const curl2 = Math.cos(u * 13.0 - drift * 0.8) * minDim * st.wave * 0.45;
+      pts.push({ x: bx + curl * 0.55 + curl2 * 0.3, y: by + curl + curl2 * 0.5, frac });
+    }
+
+    const baseCore = minDim * (burstMode ? 0.0024 : 0.0019) * st.w;
+
+    // Tapered multi-pass wispy strokes
+    for (let i = 1; i < pts.length; i++) {
+      const a = pts[i - 1];
+      const b = pts[i];
+      const taper = Math.pow(Math.sin(b.frac * Math.PI), 0.72);
+      if (taper <= 0.015) continue;
+
+      // Soft wide warm-white atmospheric halo
+      ctx.strokeStyle = `rgba(255, 242, 224, ${(0.15 * taper * strength).toFixed(3)})`;
+      ctx.lineWidth = Math.max(1.0, baseCore * 5.2 * taper);
+      ctx.beginPath();
+      ctx.moveTo(a.x, a.y);
+      ctx.lineTo(b.x, b.y);
+      ctx.stroke();
+
+      // Delicate mid glow
+      ctx.strokeStyle = `rgba(255, 250, 244, ${(0.38 * taper * strength).toFixed(3)})`;
+      ctx.lineWidth = Math.max(0.8, baseCore * 2.2 * taper);
+      ctx.beginPath();
+      ctx.moveTo(a.x, a.y);
+      ctx.lineTo(b.x, b.y);
+      ctx.stroke();
+
+      // Razor-fine luminous white filament core
+      ctx.strokeStyle = `rgba(255, 255, 255, ${(0.88 * taper * strength).toFixed(3)})`;
+      ctx.lineWidth = Math.max(0.6, baseCore * 0.95 * taper);
+      ctx.beginPath();
+      ctx.moveTo(a.x, a.y);
+      ctx.lineTo(b.x, b.y);
+      ctx.stroke();
+    }
+
+    // Soft glowing stardust orbs floating along each strand
+    const orbFracs = burstMode ? [0.35, 0.72] : [0.58];
+    for (let k = 0; k < orbFracs.length; k++) {
+      const idx = Math.floor(clamp01(orbFracs[k] + 0.14 * Math.sin(drift + k * 2.1)) * (pts.length - 1));
+      const orb = pts[idx];
+      const orbR = minDim * (burstMode ? 0.012 : 0.0085) * (0.75 + 0.45 * ((s + k) % 3) * 0.35);
+      const grad = ctx.createRadialGradient(orb.x, orb.y, 0, orb.x, orb.y, orbR * 2.2);
+      grad.addColorStop(0, `rgba(255, 255, 255, ${(0.95 * strength).toFixed(3)})`);
+      grad.addColorStop(0.32, `rgba(255, 246, 232, ${(0.42 * strength).toFixed(3)})`);
+      grad.addColorStop(1, 'rgba(255, 238, 215, 0)');
+      ctx.fillStyle = grad;
+      ctx.beginPath();
+      ctx.arc(orb.x, orb.y, orbR * 2.2, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  ctx.restore();
+}
+
+async function init(clips) {
+  cachedFrames = [];
+  cutoutCacheKey = '';
+  cutoutHeroA = null;
+  cutoutHeroF = null;
+  cutoutSubD = null;
+  revealGradReady = false;
+
+  if (!clips || clips.length === 0) return;
+  for (let i = 0; i < clips.length; i++) {
+    const frame = await runtime.getFrame(clips[i], 0);
+    cachedFrames.push(frame || clips[i]);
+  }
+}
+
+async function renderFrame(ctx, width, height, t, duration, clips) {
+  if (!clips || clips.length === 0) {
+    ctx.fillStyle = '#000';
+    ctx.fillRect(0, 0, width, height);
+    return;
+  }
+
+  if (cachedFrames.length === 0) {
+    for (let i = 0; i < clips.length; i++) {
+      const frame = await runtime.getFrame(clips[i], 0);
+      cachedFrames.push(frame || clips[i]);
+    }
+  }
+
+  await ensureCutouts(clips, width, height);
+
+  const compCanvas = runtime.getCanvas('mainComp', width, height);
+  const compCtx = compCanvas.getContext('2d');
+  compCtx.fillStyle = '#000';
+  compCtx.fillRect(0, 0, width, height);
+
+  let applyGrade = true;
+  let gradeOpts = getGradeForProfile('warm');
+  let postLightTrails = null;
+
+  if (t < 0.35) {
+    // Segment 0: Pure black intro hold matching REF 0.15s
+    applyGrade = false;
+    compCtx.fillStyle = '#000000';
+    compCtx.fillRect(0, 0, width, height);
+  } else if (t < 3.60) {
+    // Segment 1: Stepped top-to-bottom vertical reveal of Hero A (#2) with soft 2D downward smear
+    const localT = t - 0.35;
+    const state = getSteppedRevealState(t);
+    const zoom = 1.0 + localT * 0.012;
+    const srcA = prepareCoverBuffer('srcA', clips, 2, width, height, zoom);
+    const smearAmt = 0.16 + 0.84 * state.edgePulse;
+    const bloomAmt = 0.25 + 0.75 * state.edgePulse;
+    const revealed = renderSteppedVerticalReveal(srcA, width, height, state.revealY, smearAmt, bloomAmt);
+    compCtx.drawImage(revealed, 0, 0, width, height);
+
+    if (t > 3.42) {
+      const gp = clamp01((t - 3.42) / 0.18);
+      drawRevealLowerLeftGlow(compCtx, width, height, Math.sin(gp * Math.PI));
+    }
+    gradeOpts = getGradeForProfile('warm', { vignette: 0.20 });
+  } else if (t < 4.75) {
+    // Segment 2: Full-screen Hero A (#2) + strong 4.00s beat-drop horizontal motion blur & zoom impact
+    const localT = t - 3.60;
+    let zoom = 1.038 + localT * 0.016;
+    let blurStr = 0.0;
+    let radialStr = 0.0;
+    let flash = 0.0;
+
+    if (t >= 3.92 && t < 4.42) {
+      const dt = Math.max(0, t - 4.00);
+      const pre = t < 4.00 ? clamp01((t - 3.92) / 0.08) : 1.0;
+      const decay = t >= 4.00 ? Math.exp(-dt / 0.11) : pre;
+      zoom = 1.04 + 0.12 * decay + localT * 0.012;
+      blurStr = 0.14 * decay;
+      radialStr = 0.045 * decay;
+      flash = 0.075 * decay;
+    }
+
+    const srcA = prepareCoverBuffer('srcA', clips, 2, width, height, zoom);
+    if (blurStr > 0.002) {
+      const blurred = renderDirectionalBlur(srcA, width, height, 0.0, blurStr, radialStr);
+      compCtx.drawImage(blurred, 0, 0, width, height);
+    } else {
+      compCtx.drawImage(srcA, 0, 0, width, height);
+    }
+
+    if (t < 3.72) {
+      const fade = 1.0 - clamp01((t - 3.60) / 0.12);
+      drawRevealLowerLeftGlow(compCtx, width, height, fade * 0.50);
+    }
+    gradeOpts = getGradeForProfile('warm', { flash });
+  } else if (t < 6.05) {
+    // Segment 3: Borderless 2x2 quad background collage popping in beat-by-beat behind Hero A (#2) cutout
+    const localT = t - 4.75;
+    const baseBg = prepareCoverBuffer('srcA', clips, 2, width, height, 1.04);
+    compCtx.drawImage(baseBg, 0, 0, width, height);
+
+    const panels = [];
+    if (t >= 4.75) {
+      panels.push({
+        clipIdx: 11,
+        rect: [0, 0, 0.5, 0.5],
+        alpha: clamp01((t - 4.75) / 0.07),
+        zoom: beatZoomScale(t - 4.75, 1.11, 0.22, 0.01)
+      });
+    }
+    if (t >= 5.00) {
+      panels.push({
+        clipIdx: 5,
+        rect: [0.5, 0, 0.5, 0.5],
+        alpha: clamp01((t - 5.00) / 0.07),
+        zoom: beatZoomScale(t - 5.00, 1.11, 0.22, 0.01)
+      });
+    }
+    if (t >= 5.25) {
+      panels.push({
+        clipIdx: 8,
+        rect: [0, 0.5, 0.5, 0.5],
+        alpha: clamp01((t - 5.25) / 0.07),
+        zoom: beatZoomScale(t - 5.25, 1.11, 0.22, 0.01)
+      });
+    }
+    if (t >= 5.55) {
+      panels.push({
+        clipIdx: 4,
+        rect: [0.5, 0.5, 0.5, 0.5],
+        alpha: clamp01((t - 5.55) / 0.07),
+        zoom: beatZoomScale(t - 5.55, 1.10, 0.22, 0.01)
+      });
+    }
+
+    drawBorderlessQuadCollage(compCtx, clips, panels, width, height);
+
+    // Foreground cutout is Hero A (#2) seamlessly locked in center over the collage
+    drawCrispRimCutout(compCtx, cutoutHeroA, width, height, {
+      scale: 1.0 + localT * 0.016,
+      alpha: 1.0,
+      rimStrength: 0.14
+    });
+
+    if (t >= 5.90) {
+      const whip = easeInOutCubic((t - 5.90) / 0.15);
+      const whipped = renderDirectionalBlur(compCanvas, width, height, -0.40, 0.16 * whip, 0.03 * whip);
+      compCtx.drawImage(whipped, 0, 0, width, height);
+    }
+    gradeOpts = getGradeForProfile('warm', { warmth: 0.22, vignette: 0.26 });
+  } else if (t < 7.55) {
+    // Segment 4: Full-screen Close-up Portrait E (#4) with diagonal whip-blur entry & warm zoom drift
+    const localT = t - 6.05;
+    const entryDecay = Math.exp(-localT / 0.11);
+    const beat68 = t >= 6.80 ? Math.exp(-(t - 6.80) / 0.14) * 0.035 : 0;
+    const beat73 = t >= 7.30 ? Math.exp(-(t - 7.30) / 0.14) * 0.035 : 0;
+    const zoom = 1.0 + 0.09 * entryDecay + localT * 0.022 + beat68 + beat73;
+
+    const srcE = prepareCoverBuffer('srcE', clips, 4, width, height, zoom);
+    if (entryDecay > 0.03) {
+      const blurred = renderDirectionalBlur(srcE, width, height, -0.40, 0.165 * entryDecay, 0.03 * entryDecay);
+      compCtx.drawImage(blurred, 0, 0, width, height);
+    } else {
+      compCtx.drawImage(srcE, 0, 0, width, height);
+    }
+    gradeOpts = getGradeForProfile('warm', { flash: 0.055 * entryDecay });
+  } else if (t < 8.10) {
+    // Segment 5: Portrait E (#4) bg + brief upper-left peek (7.55s) + rising cutout of Hero F (#12)
+    const zoomBg = 1.036 + (t - 7.55) * 0.028;
+    const srcE = prepareCoverBuffer('srcE', clips, 4, width, height, zoomBg);
+    compCtx.drawImage(srcE, 0, 0, width, height);
+
+    if (t < 7.75) {
+      const peekP = clamp01((t - 7.55) / 0.18);
+      const peekEnv = Math.sin(peekP * Math.PI);
+      drawCrispRimCutout(compCtx, cutoutHeroF, width, height, {
+        scale: 0.40,
+        offsetXNorm: -0.26,
+        offsetYNorm: -0.22,
+        alpha: peekEnv * 0.85,
+        rimStrength: 0.65
+      });
+    } else {
+      const riseP = easeOutCubic((t - 7.75) / 0.30);
+      const fgScale = lerp(0.54, 1.04, riseP);
+      const fgOffsetY = lerp(0.28, 0.0, riseP);
+      drawCrispRimCutout(compCtx, cutoutHeroF, width, height, {
+        scale: fgScale,
+        offsetXNorm: 0.0,
+        offsetYNorm: fgOffsetY,
+        alpha: clamp01((t - 7.75) / 0.06),
+        rimStrength: lerp(1.05, 0.28, riseP)
+      });
+    }
+
+    let flash = 0.0;
+    if (t >= 7.98) {
+      const imp = easeInOutCubic((t - 7.98) / 0.12);
+      const blurred = renderDirectionalBlur(compCanvas, width, height, 0.0, 0.15 * imp, 0.04 * imp);
+      compCtx.drawImage(blurred, 0, 0, width, height);
+      flash = 0.07 * imp;
+    }
+    gradeOpts = getGradeForProfile('warm', { flash });
+  } else if (t < 8.75) {
+    // Segment 6: Full-screen Hero Portrait F (#12) landing sharply from 8.10s horizontal impact
+    const localT = t - 8.10;
+    const decay = Math.exp(-localT / 0.105);
+    const zoom = 1.02 + 0.11 * decay + localT * 0.015;
+    const srcF = prepareCoverBuffer('srcF', clips, 12, width, height, zoom);
+    if (decay > 0.03) {
+      const blurred = renderDirectionalBlur(srcF, width, height, 0.0, 0.16 * decay, 0.04 * decay);
+      compCtx.drawImage(blurred, 0, 0, width, height);
+    } else {
+      compCtx.drawImage(srcF, 0, 0, width, height);
+    }
+    gradeOpts = getGradeForProfile('indoorMagenta', { flash: 0.08 * decay });
+  } else if (t < 10.15) {
+    // Segment 7: Second borderless 2x2 quad collage behind Hero F (#12) cutout + secondary bottom-right cutout (#5)
+    const localT = t - 8.75;
+    const baseBg = prepareCoverBuffer('srcF', clips, 12, width, height, 1.02);
+    compCtx.drawImage(baseBg, 0, 0, width, height);
+
+    const panels = [];
+    if (t >= 8.82) {
+      const dtTL = Math.max(0, t - 8.85);
+      const blurTL = Math.exp(-dtTL / 0.085);
+      let overrideTL = null;
+      if (blurTL > 0.06) {
+        const halfW = Math.max(2, Math.round(width * 0.5));
+        const halfH = Math.max(2, Math.round(height * 0.5));
+        const tmpTL = prepareCoverBuffer('tlBlurSrc', clips, 4, halfW, halfH, 1.06);
+        overrideTL = renderDirectionalBlur(tmpTL, halfW, halfH, -0.25, 0.11 * blurTL, 0.01);
+      }
+      panels.push({
+        clipIdx: 4,
+        overrideMedia: overrideTL,
+        rect: [0, 0, 0.5, 0.5],
+        alpha: clamp01((t - 8.82) / 0.06),
+        zoom: beatZoomScale(dtTL, 1.10, 0.20, 0.01)
+      });
+    }
+    if (t >= 9.15) {
+      panels.push({
+        clipIdx: 2,
+        rect: [0.5, 0, 0.5, 0.5],
+        alpha: clamp01((t - 9.15) / 0.07),
+        zoom: beatZoomScale(t - 9.15, 1.10, 0.20, 0.01)
+      });
+    }
+    if (t >= 9.35) {
+      panels.push({
+        clipIdx: 0,
+        rect: [0, 0.5, 0.5, 0.5],
+        alpha: clamp01((t - 9.35) / 0.07),
+        zoom: beatZoomScale(t - 9.35, 1.10, 0.20, 0.01)
+      });
+    }
+    if (t >= 9.65) {
+      panels.push({
+        clipIdx: 7,
+        rect: [0.5, 0.5, 0.5, 0.5],
+        alpha: clamp01((t - 9.65) / 0.07),
+        zoom: beatZoomScale(t - 9.65, 1.10, 0.20, 0.01)
+      });
+    }
+
+    drawBorderlessQuadCollage(compCtx, clips, panels, width, height);
+
+    // Primary foreground cutout: Hero F (#12, green saree) locked in center
+    drawCrispRimCutout(compCtx, cutoutHeroF, width, height, {
+      scale: 1.0 + localT * 0.015,
+      alpha: 1.0,
+      rimStrength: 0.16
+    });
+
+    // Secondary foreground cutout: Seated D (#5, pink saree) popping up cleanly at bottom-right
+    if (t >= 9.65) {
+      const popP = easeOutCubic((t - 9.65) / 0.16);
+      drawCrispRimCutout(compCtx, cutoutSubD, width, height, {
+        scale: lerp(0.46, 0.60, popP),
+        offsetXNorm: 0.24,
+        offsetYNorm: lerp(0.35, 0.22, popP),
+        alpha: clamp01((t - 9.65) / 0.06),
+        rimStrength: 0.85
+      });
+    }
+
+    if (t >= 10.02) {
+      const whip = easeInOutCubic((t - 10.02) / 0.13);
+      const whipped = renderDirectionalBlur(compCanvas, width, height, 0.0, 0.17 * whip, 0.03 * whip);
+      compCtx.drawImage(whipped, 0, 0, width, height);
+    }
+    gradeOpts = getGradeForProfile('indoorMagenta', { warmth: 0.23, vignette: 0.26 });
+  } else if (t < 11.15) {
+    // Segment 8: Full-screen Seated Portrait D (#5) entering via horizontal whip-blur
+    const localT = t - 10.15;
+    const decay = Math.exp(-localT / 0.105);
+    const zoom = 1.0 + 0.085 * decay + localT * 0.024;
+    const srcD = prepareCoverBuffer('srcD', clips, 5, width, height, zoom);
+    if (decay > 0.03) {
+      const blurred = renderDirectionalBlur(srcD, width, height, 0.0, 0.165 * decay, 0.025 * decay);
+      compCtx.drawImage(blurred, 0, 0, width, height);
+    } else {
+      compCtx.drawImage(srcD, 0, 0, width, height);
+    }
+    gradeOpts = getGradeForProfile('daylight', { flash: 0.065 * decay });
+  } else if (t < 11.90) {
+    // Segment 9: Borderless vertical 50/50 split hold (11.15s..11.48s) -> horizontal seam-blur wipe (11.48s..11.90s)
+    const leftZoom = beatZoomScale(t - 11.15, 1.08, 0.24, 0.015);
+    const rightZoom = 1.024 + (t - 11.15) * 0.012;
+    const leftBuf = prepareCoverBuffer('splitL', clips, 11, width, height, leftZoom);
+    const rightBuf = prepareCoverBuffer('splitR', clips, 5, width, height, rightZoom);
+
+    let splitX = 0.56;
+    let seamBlurWidth = 0.0;
+    let seamBlurAmt = 0.0;
+
+    if (t >= 11.48) {
+      const wipeP = easeInOutCubic((t - 11.48) / 0.42);
+      splitX = lerp(0.56, 1.02, wipeP);
+      const speedEnv = Math.sin(wipeP * Math.PI);
+      seamBlurWidth = 0.17 * speedEnv;
+      seamBlurAmt = 0.90 * speedEnv;
+    }
+
+    const wiped = renderVerticalSplitWipe(leftBuf, rightBuf, width, height, splitX, seamBlurWidth, seamBlurAmt);
+    compCtx.drawImage(wiped, 0, 0, width, height);
+    gradeOpts = getGradeForProfile('indoorMagenta', { warmth: 0.22 });
+  } else if (t < 13.00) {
+    // Segment 10: Full-screen Portrait B (#11) with delicate sweeping additive white light wisps
+    const localT = t - 11.90;
+    const zoom = 1.01 + localT * 0.026;
+    const srcB = prepareCoverBuffer('srcB', clips, 11, width, height, zoom);
+    compCtx.drawImage(srcB, 0, 0, width, height);
+    gradeOpts = getGradeForProfile('indoorMagenta', { vignette: 0.30 });
+
+    postLightTrails = {
+      localT: localT,
+      duration: 1.10,
+      intensity: 1.0,
+      burstMode: false
+    };
+  } else if (t < 20.25) {
+    // Segments 11..23: Beat-synced velocity montage showcasing all remaining user photos with head-safe framing
+    const montageSegments = [
+      { start: 13.00, end: 13.70, clipIdx: 0,  peakZoom: 1.11, blurType: 'radial',    blurAmt: 0.048 },
+      { start: 13.70, end: 14.20, clipIdx: 8,  peakZoom: 1.13, blurType: 'vertZoom',  blurAmt: 0.090, beatHit: 13.75 },
+      { start: 14.20, end: 14.95, clipIdx: 15, peakZoom: 1.09, blurType: 'radial',    blurAmt: 0.042, pulseAt: 14.54 },
+      { start: 14.95, end: 15.35, clipIdx: 1,  peakZoom: 1.13, blurType: 'radial',    blurAmt: 0.085 },
+      { start: 15.35, end: 15.80, clipIdx: 13, peakZoom: 1.11, blurType: 'none',      blurAmt: 0.0 },
+      { start: 15.80, end: 16.04, clipIdx: 4,  peakZoom: 1.14, blurType: 'none',      blurAmt: 0.0, lightBurst: true },
+      { start: 16.04, end: 16.70, clipIdx: 7,  peakZoom: 1.11, blurType: 'none',      blurAmt: 0.0, pulseAt: 16.30 },
+      { start: 16.70, end: 17.20, clipIdx: 3,  peakZoom: 1.10, blurType: 'none',      blurAmt: 0.0 },
+      { start: 17.20, end: 17.65, clipIdx: 9,  peakZoom: 1.10, blurType: 'none',      blurAmt: 0.0 },
+      { start: 17.65, end: 18.58, clipIdx: 14, peakZoom: 1.12, blurType: 'vertShake', blurAmt: 0.110, shakeAt: 17.82 },
+      { start: 18.58, end: 19.25, clipIdx: 6,  peakZoom: 1.11, blurType: 'none',      blurAmt: 0.0 },
+      { start: 19.25, end: 19.75, clipIdx: 10, peakZoom: 1.10, blurType: 'none',      blurAmt: 0.0, pulseAt: 19.40 },
+      { start: 19.75, end: 20.25, clipIdx: 2,  peakZoom: 1.09, blurType: 'none',      blurAmt: 0.0, pulseAt: 19.90 }
+    ];
+
+    let seg = montageSegments[montageSegments.length - 1];
+    for (let i = 0; i < montageSegments.length; i++) {
+      if (t >= montageSegments[i].start && t < montageSegments[i].end) {
+        seg = montageSegments[i];
+        break;
+      }
+    }
+
+    const localT = Math.max(0, t - seg.start);
+    let zoom = beatZoomScale(localT, seg.peakZoom, 0.24, 0.020);
+    let offsetY = 0;
+    let flash = seg.lightBurst
+      ? 0.14 * Math.exp(-localT / 0.09)
+      : 0.05 * Math.exp(-localT / 0.075);
+
+    if (seg.pulseAt && t >= seg.pulseAt) {
+      const dp = t - seg.pulseAt;
+      zoom += 0.06 * Math.exp(-dp / 0.11);
+      flash = Math.max(flash, 0.045 * Math.exp(-dp / 0.08));
+    }
+    if (seg.beatHit && t >= seg.beatHit) {
+      const db = t - seg.beatHit;
+      zoom += 0.05 * Math.exp(-db / 0.09);
+    }
+
+    let dirBlur = 0;
+    let radBlur = 0;
+    let blurAngle = 0;
+
+    if (seg.blurType === 'radial') {
+      const decay = Math.exp(-localT / 0.11);
+      radBlur = seg.blurAmt * decay;
+      dirBlur = seg.blurAmt * 0.22 * decay;
+    } else if (seg.blurType === 'vertZoom') {
+      const decay = Math.exp(-localT / 0.12);
+      blurAngle = Math.PI * 0.5;
+      dirBlur = seg.blurAmt * decay;
+      radBlur = 0.042 * decay;
+    } else if (seg.blurType === 'vertShake') {
+      const distShake = Math.abs(t - seg.shakeAt);
+      const shakeEnv = Math.exp(-(distShake * distShake) / (2 * 0.085 * 0.085));
+      blurAngle = Math.PI * 0.5;
+      dirBlur = seg.blurAmt * shakeEnv;
+      radBlur = 0.028 * shakeEnv;
+      zoom += 0.055 * shakeEnv;
+      offsetY = Math.sin(localT * 42.0) * 0.01 * shakeEnv;
+    }
+
+    const srcM = prepareCoverBuffer('montageSrc', clips, seg.clipIdx, width, height, zoom, 0, offsetY);
+    if (dirBlur > 0.003 || radBlur > 0.003) {
+      const blurred = renderDirectionalBlur(srcM, width, height, blurAngle, dirBlur, radBlur);
+      compCtx.drawImage(blurred, 0, 0, width, height);
+    } else {
+      compCtx.drawImage(srcM, 0, 0, width, height);
+    }
+
+    const meta = getClipMeta(seg.clipIdx);
+    gradeOpts = getGradeForProfile(meta.profile, { flash });
+
+    if (seg.lightBurst) {
+      postLightTrails = {
+        localT: localT + 0.04,
+        duration: 0.28,
+        intensity: 1.25,
+        burstMode: true
+      };
+    }
+  } else {
+    // Segment 24 (20.25s..end): Rapid heavy defocus into warm-gray wash by 20.60s -> pure black by 21.50s
+    applyGrade = false;
+    const prog = clamp01((t - 20.25) / Math.max(0.05, duration - 20.25));
+    const zoom = 1.03 + prog * 0.06;
+    const srcOut = prepareCoverBuffer('outroSrc', clips, 2, width, height, zoom);
+    const gradedOut = renderWarmGrade(srcOut, width, height, getGradeForProfile('warm'));
+    const defocused = renderOutroDefocusWash(gradedOut, width, height, prog);
+    compCtx.drawImage(defocused, 0, 0, width, height);
+  }
+
+  // Final cohesive warm cinematic color grade pass onto main ctx
+  if (applyGrade) {
+    const graded = renderWarmGrade(compCanvas, width, height, gradeOpts);
+    ctx.drawImage(graded, 0, 0, width, height);
+  } else {
+    ctx.drawImage(compCanvas, 0, 0, width, height);
+  }
+
+  // Draw delicate wispy additive light trails post-grade so white luminous strands stay crisp
+  if (postLightTrails) {
+    drawWispyLightTrails(
+      ctx,
+      width,
+      height,
+      postLightTrails.localT,
+      postLightTrails.duration,
+      postLightTrails.intensity,
+      postLightTrails.burstMode
+    );
+  }
+}
